@@ -308,7 +308,7 @@
 
     .landing-page-hero {
         background-color: var(--black-color);
-        background-image: url('/pictures/landing-page-hero.jpg');
+        background-image: url('/pictures/landing-page-hero.webp');
     }
 
     .hero-container {
@@ -476,7 +476,7 @@
         align-items: center;
         flex-shrink: 0;
         background-color: var(--black-color);
-        background-image: url('/pictures/landing-page-our-work.jpg');
+        background-image: url('/pictures/landing-page-our-work.webp');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -652,7 +652,7 @@
         align-items: center;
         flex-shrink: 0;
         background-color: var(--black-color);
-        background-image: url('/pictures/landing-page-services.jpg');
+        background-image: url('/pictures/landing-page-services.webp');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -721,11 +721,11 @@
     }
 
     .services-showcase > .services-showcase-container > .product-package > #digitalization-package {
-        background-image: url('/pictures/digitalization-illustration.jpg');
+        background-image: url('/pictures/digitalization-illustration.webp');
     }
 
     .services-showcase > .services-showcase-container > .product-package > #automatization-package {
-        background-image: url('/pictures/automatization-illustration.jpg');
+        background-image: url('/pictures/automatization-illustration.webp');
     }
 
     .reviews-showcase {
@@ -821,7 +821,7 @@
         align-items: center;
         gap: 30px;
         background-color: var(--main-color);
-        background-image: url('/pictures/landing-page-contact.jpg');
+        background-image: url('/pictures/landing-page-contact.webp');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -955,7 +955,7 @@
 
     .about-us-hero {
         background-color: var(--black-color);
-        background-image: url('/pictures/about-hero.jpg');
+        background-image: url('/pictures/about-hero.webp');
     }
 
     .mission-statement-container > h1 {
@@ -989,7 +989,7 @@
         align-items: center;
         gap: 30px;
         background-color: var(--main-color);
-        background-image: url('/pictures/about-vision.jpg');
+        background-image: url('/pictures/about-vision.webp');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -1097,7 +1097,7 @@
         justify-content: center;
         align-items: center;
         background-color: var(--dark-color);
-        background-image: url('/pictures/about-team.jpg');
+        background-image: url('/pictures/about-team.webp');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -1210,7 +1210,7 @@
 
     .our-work-hero {
         background-color: var(--tint-color);
-        background-image: url('/pictures/work-hero.jpg');
+        background-image: url('/pictures/work-hero.webp');
     }
 
     .selected-projects-showcase {
@@ -1222,7 +1222,7 @@
         align-items: center;
         flex-shrink: 0;
         background-color: var(--black-color);
-        background-image: url('/pictures/work-projects.jpg');
+        background-image: url('/pictures/work-projects.webp');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -1289,7 +1289,7 @@
 
     .services-hero {
         background-color: var(--main-color);
-        background-image: url('/pictures/services-hero.jpg');
+        background-image: url('/pictures/services-hero.webp');
     }
 
     .services-hero > .hero-container,
@@ -1450,7 +1450,7 @@
 
     .contact-hero {
         background-color: var(--main-color);
-        background-image: url('/pictures/contact-hero.jpg');
+        background-image: url('/pictures/contact-hero.webp');
     }
 
     .contact-form {
@@ -1630,7 +1630,7 @@
         align-items: center;
         gap: 50px;
         background-color: var(--tint-color);
-        background-image: url('/pictures/contact-steps.jpg');
+        background-image: url('/pictures/contact-steps.webp');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -2257,7 +2257,7 @@
 
     .landing-page-hero {
         background-color: var(--black-color);
-        background-image: url('/pictures/landing-page-hero.jpg');
+        background-image: url('/pictures/landing-page-hero.webp');
     }
 
     .hero-container {
@@ -2419,7 +2419,7 @@
         justify-content: center;
         align-items: center;
         background-color: var(--black-color);
-        background-image: url('/pictures/landing-page-our-work.jpg');
+        background-image: url('/pictures/landing-page-our-work.webp');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -2589,7 +2589,7 @@
         flex-shrink: 0;
         gap: 20px;
         background-color: var(--black-color);
-        background-image: url('/pictures/landing-page-services.jpg');
+        background-image: url('/pictures/landing-page-services.webp');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -2735,7 +2735,7 @@
         align-items: center;
         gap: 30px;
         background-color: var(--main-color);
-        background-image: url('/pictures/landing-page-contact.jpg');
+        background-image: url('/pictures/landing-page-contact.webp');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -2864,7 +2864,7 @@
 
     .about-us-hero {
         background-color: var(--black-color);
-        background-image: url('/pictures/about-hero.jpg');
+        background-image: url('/pictures/about-hero.webp');
     }
 
     .mission-statement-container > h1 {
@@ -2902,7 +2902,7 @@
         align-items: center;
         gap: 20px;
         background-color: var(--main-color);
-        background-image: url('/pictures/about-vision-mobile.jpg');
+        background-image: url('/pictures/about-vision-mobile.webp');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -3012,7 +3012,7 @@
         justify-content: center;
         align-items: center;
         background-color: var(--dark-color);
-        background-image: url('/pictures/about-team.jpg');
+        background-image: url('/pictures/about-team.webp');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -3115,7 +3115,7 @@
 
     .our-work-hero {
         background-color: var(--tint-color);
-        background-image: url('/pictures/work-hero.jpg');
+        background-image: url('/pictures/work-hero.webp');
     }
 
     .selected-projects-showcase {
@@ -3127,7 +3127,7 @@
         align-items: center;
         gap: 20px;
         background-color: var(--black-color);
-        background-image: url('/pictures/work-projects.jpg');
+        background-image: url('/pictures/work-projects.webp');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -3189,7 +3189,7 @@
 
     .services-hero {
         background-color: var(--main-color);
-        background-image: url('/pictures/services-hero.jpg');
+        background-image: url('/pictures/services-hero.webp');
     }
 
     .services-hero > .hero-container,
@@ -3346,7 +3346,7 @@
 
     .contact-hero {
         background-color: var(--main-color);
-        background-image: url('/pictures/contact-hero.jpg');
+        background-image: url('/pictures/contact-hero.webp');
     }
 
     .contact-form {
@@ -3524,7 +3524,7 @@
         align-items: center;
         gap: 50px;
         background-color: var(--tint-color);
-        background-image: url('/pictures/contact-steps.jpg');
+        background-image: url('/pictures/contact-steps.webp');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
