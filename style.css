@@ -193,10 +193,6 @@
         opacity: 0;
     }
 
-    .dropdown > li > a {
-        display: none;
-    }
-
     .dropdown-content {
         position: absolute;
         list-style: none;
