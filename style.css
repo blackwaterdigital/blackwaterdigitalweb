@@ -237,7 +237,8 @@
     }
 
     .light > nav > ul > li > a {
-        color: var(--dark-color)
+        color: var(--dark-color);
+        transition: color 0.1s linear;
     }
 
     .light > nav > ul > li > a:hover {
@@ -247,7 +248,7 @@
     .light > nav > ul > .nav-action-btn > a {
         color: var(--main-color);
         background-color: var(--dark-color);
-        transition: all 0.1s ease-in-out;
+        transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out;
     }
 
     .light > nav > ul > .nav-action-btn > a:hover {
