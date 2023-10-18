@@ -95,7 +95,7 @@ const langSk = {
     <li><a href="/about/">Spoznajte náš tím</a></li></ul></div>
     <div class="footer-row">
     <h6>Právne</h6>
-    <ul><li><a href="/documents/imprint_23.pdf">Impressum</a></li>
+    <ul><li><a href="/documents/imprint_23.pdf" target="_blank">Impressum</a></li>
     <li><a href="/documents/privacypolicy_23.pdf">Zásady ochrany osobných údajov</a></li></ul></div>`,
 
   ".footer-bottom-links > p":

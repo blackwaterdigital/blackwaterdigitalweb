@@ -95,7 +95,7 @@ const langEn = {
     <li><a href="/about/">Our Motivation</a></li>
     <li><a href="/about/">Meet the Team</a></li></ul></div>
     <div class="footer-row"><h6>Legal</h6>
-    <ul><li><a href="/documents/imprint_23.pdf">Imprint</a></li>
+    <ul><li><a href="/documents/imprint_23.pdf" target="_blank">Imprint</a></li>
     <li><a href="/documents/privacypolicy_23.pdf">Privacy Policy</a></li></ul></div>`,
 
   ".footer-bottom-links > p":
