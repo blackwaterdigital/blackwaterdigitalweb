@@ -1172,7 +1172,7 @@
     .team-showcase > .members-showcase-container > .member-card > .text-content > p {
         color: var(--dark-color);
         font-family: var(--text-font);
-        font-size: 12px;
+        font-size: 14px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -2988,7 +2988,7 @@
     .team-showcase > .members-showcase-container > .member-card > .text-content > p {
         color: var(--dark-color);
         font-family: var(--text-font);
-        font-size: 12px;
+        font-size: 14px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
