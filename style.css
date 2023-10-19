@@ -1834,7 +1834,7 @@
         line-height: 14px;
         letter-spacing: -0.7px;
         margin: 0;
-        border-bottom: 4px solid var(--dark-color);
+        border-bottom: 3px solid var(--dark-color);
     }
 
     footer > .footer-menu > .footer-row > ul {
@@ -3631,7 +3631,7 @@
         line-height: 14px;
         letter-spacing: -0.9px;
         margin: 0;
-        border-bottom: 4px solid var(--dark-color);
+        border-bottom: 3px solid var(--dark-color);
     }
 
     footer > .footer-menu > .footer-row > ul {
