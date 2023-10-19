@@ -254,18 +254,6 @@ const langSk = {
                 </ul>
             </div>
         </div>
-        <div class="package-content-section">
-            <div class="title">
-                <h4>Digitalizácia</h4>
-                <p>Reprezentácia pre Vašu firmu v digitálnom svete 21. storočia.</p>
-            </div>
-            <div class="items">
-                <ul>
-                    <li class="dash">- Tvorba digitálnych vizitiek</li>
-                    <li class="plus tab">+ 1 variácia</li>
-                </ul>
-            </div>
-        </div>
     </div>`,
 
   ".automatization-package": `<h1>Automatizačný balík</h1>

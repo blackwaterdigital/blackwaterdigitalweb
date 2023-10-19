@@ -254,18 +254,6 @@ const langEn = {
                 </ul>
             </div>
         </div>
-        <div class="package-content-section">
-            <div class="title">
-                <h4>Digitalization</h4>
-                <p>The representation of your company in the digital space of the 21st century.</p>
-            </div>
-            <div class="items">
-                <ul>
-                    <li class="dash">- Digital Business Card Design</li>
-                    <li class="plus tab">+ 1 variation</li>
-                </ul>
-            </div>
-        </div>
     </div>`,
 
   ".automatization-package": `<h1>Automatization Package</h1>

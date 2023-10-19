@@ -3182,7 +3182,7 @@
         background-image: url(/pictures/vasevolby-client-preview.svg);
     }
 
-    /* ---------------------------- Services Page ---------------------------- */
+    /* ---------------------------- Mobile Services Page ---------------------------- */
 
     .services-hero {
         background-color: var(--main-color);
@@ -3224,7 +3224,7 @@
 
     .digitalization-package > h1,
     .automatization-package > h1 {
-        width: max-content;
+        width: calc(100vw - 90px);
         color: var(--main-color);
         font-family: var(--text-font);
         text-align: right;
@@ -3239,10 +3239,10 @@
     .digitalization-package > .package-content,
     .automatization-package > .package-content {
         display: flex;
-        width: calc(100vw - 90px);
+        width: calc(100vw - 70px);
         flex-direction: column;
         align-items: flex-start;
-        gap: 30px;
+        gap: 20px;
     }
 
     .digitalization-package > .package-content > h2,
@@ -3260,7 +3260,7 @@
     .digitalization-package > .package-content > .package-content-section,
     .automatization-package > .package-content > .package-content-section {
         display: flex;
-        padding: 20px 0px;
+        padding: 10px 0px;
         flex-direction: column;
         align-items: flex-start;
         gap: 20px;
@@ -3281,7 +3281,7 @@
         align-self: stretch;
         color: var(--main-color);
         font-family: var(--text-font);
-        font-size: 20px;
+        font-size: 16px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -3294,7 +3294,7 @@
         color: var(--main-color);
         text-align: justify;
         font-family: var(--text-font);
-        font-size: 14px;
+        font-size: 12px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -3323,7 +3323,7 @@
         align-self: stretch;
         color: var(--main-color);
         font-family: var(--text-font);
-        font-size: 20px;
+        font-size: 14px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -3659,7 +3659,7 @@
         margin: 0;
     }
 
-    /* ---------------------------- Footer ---------------------------- */
+    /* ---------------------------- Mobile Footer ---------------------------- */
 
     footer {
         display: flex;
