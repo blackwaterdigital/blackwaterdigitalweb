@@ -1325,7 +1325,7 @@
 
     .digitalization-package > h1,
     .automatization-package > h1 {
-        width: 1000px;
+        width: 800px;
         color: var(--main-color);
         font-family: var(--text-font);
         text-align: right;
