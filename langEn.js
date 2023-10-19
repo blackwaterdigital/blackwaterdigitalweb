@@ -262,7 +262,7 @@ const langEn = {
         <div class="package-content-section">
             <div class="title">
                 <h4>Consultations and Planning</h4>
-                <p>Tell us your vision and we will help to realize it.</p>
+                <p>Tell us your vision and we will help you realize it.</p>
             </div>
             <div class="items">
                 <ul>
