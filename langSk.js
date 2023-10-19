@@ -289,7 +289,7 @@ const langSk = {
                     <li>- Údržba Vášho produktu</li>
                 </ul>
                 <ul>
-                    <li>- Oprava technický chýb už v existujúcom produkte</li>
+                    <li>- Oprava technických chýb už v existujúcom produkte</li>
                 </ul>
             </div> 
         </div>
