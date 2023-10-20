@@ -197,7 +197,7 @@ const langSk = {
                     <li class="tab">+ Dizajn webstránky</li>
                 </ul>
                 <ul>
-                    <li>- Správa</li>
+                    <li>- Správa webstránky</li>
                 </ul>
             </div> 
         </div>

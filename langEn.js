@@ -196,7 +196,7 @@ const langEn = {
                     <li class="tab">+ Full Design</li>
                 </ul>
                 <ul>
-                    <li>- Maintenance</li>
+                    <li>- Website Maintenance</li>
                 </ul>
             </div> 
         </div>
