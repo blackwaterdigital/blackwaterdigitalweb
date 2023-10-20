@@ -78,7 +78,7 @@ const langSk = {
 
   ".footer-menu": `<div class="footer-row">
     <h6>Digitalizačné služby</h6>
-    <ul><li><a href="/services/">Web Dizajn</a></li>
+    <ul><li><a href="/services/">Web dizajn</a></li>
     <li><a href="/services/">Vývoj webu</a></li>
     <li><a href="/services/">Sociálne siete</a></li>
     <li><a href="/services/">Dizajn značky</a></li>
@@ -96,7 +96,7 @@ const langSk = {
     <div class="footer-row">
     <h6>Právne</h6>
     <ul><li><a href="/documents/imprint_23.pdf" target="_blank">Impressum</a></li>
-    <li><a href="/documents/privacypolicy_23.pdf">Zásady ochrany osobných údajov</a></li></ul></div>`,
+    <li><a href="/documents/privacypolicy_23_sk.pdf">Zásady ochrany osobných údajov</a></li></ul></div>`,
 
   ".footer-bottom-links > p":
     "© 2023 Blackwater Holdings Limited s. r. o. Všetky práva vyhradené.",

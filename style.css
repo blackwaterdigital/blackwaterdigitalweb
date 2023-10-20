@@ -2766,6 +2766,10 @@
         background-image: url('/pictures/about-hero.webp');
     }
 
+    .about-us-hero > .hero-container > .hero-text > p {
+        width: calc(100% - 20px);
+    }
+
     .mission-statement-container > h1 {
         color: var(--dark-color);
         text-align: center;
@@ -3582,6 +3586,14 @@
         align-items: center;
         align-self: stretch;
         gap: 20px;
+    }
+
+    .footer-nav-logo {
+        height: 80px;
+        width: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     footer > .footer-top-row > .contact-us-btn {
