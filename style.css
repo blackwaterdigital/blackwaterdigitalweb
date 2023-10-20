@@ -2012,7 +2012,7 @@
     .show {
         width: 100vw;
     }
-
+/* 
     nav > ul::before {
         content: '';
         background-image: url('/assets/logo-square.svg');
@@ -2025,7 +2025,7 @@
         left: 50vw;
         transform: translateX(-50%);
         z-index: 11;
-    }
+    } */
 
     nav > ul {
         display: flex;
