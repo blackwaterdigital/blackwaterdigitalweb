@@ -347,7 +347,7 @@ const langEn = {
   "#contact-steps-title": "<h1>Next Steps</h1>",
 
   "#contact-step-item-1": `<h3>Planning</h3>
-    <p>We plan the whole project together, starting at the base and going through every tiny detail to ensure our customers’ happiness.</p>`,
+    <p>We plan the whole project together, starting at the base and going through every tiny detail to ensure your happiness.</p>`,
 
   "#contact-step-item-2": `<h3>Design</h3>
     <p>We provide a design plan and a manual to represent and differentiate your project from the rest, based on your specific needs.</p>`,

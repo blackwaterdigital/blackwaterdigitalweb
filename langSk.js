@@ -347,7 +347,7 @@ const langSk = {
   "#contact-steps-title": "<h1>Ďaľšie kroky</h1>",
 
   "#contact-step-item-1": `<h3>Plánovanie</h3>
-    <p>Naplánujeme priebeh celého projektu spolu, začínajúc od začiatku a postupne, detail po detaile zaručíme spokojnosť zákazníka.</p>`,
+    <p>Naplánujeme priebeh celého projektu spolu, začínajúc od začiatku a postupne, detail po detaile zaručíme Vašu spokojnosť.</p>`,
 
   "#contact-step-item-2": `<h3>Dizajn</h3>
     <p>Pripravíme manuál aj plán dizajnu aby sa Váše podnikanie vedelo odlíšiť od ostatných a dostalo svoj vlastný image, na základe Vašich potrieb.</p>`,
