@@ -1114,7 +1114,7 @@
 
     .team-showcase > .members-showcase-container {
         display: grid;
-        grid-template: 1fr 1fr / 1fr 1fr;
+        grid-template: 1fr /*1fr*/ / 1fr 1fr;
         width: 1000px;
         padding: 50px 0px 20px 0px;
         box-sizing: border-box;

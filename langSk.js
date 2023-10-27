@@ -134,10 +134,10 @@ const langSk = {
   "#team-matus-k > p":
     "„Zrealizovať predstavu zákazníka je pre mňa vždy privítaná výzva. Prináša mi radosť keď môžem premeniť Vašu víziu na realitu a práve preto som tu.”",
 
-  "#team-stef-m > .title > .position": "Web dizajn",
+  // "#team-stef-m > .title > .position": "Web dizajn",
 
-  "#team-stef-m > p":
-    "„Vždy sa snažím prekonať očakávania zákazníkov lebo si uvedomujem, že úspech podnikania závisí od zákazníkov. Spolu s kolegami sa snažíme o minimalistickú a hlavne funkčnú prácu pri každom produkte.“",
+  // "#team-stef-m > p":
+    // "„Vždy sa snažím prekonať očakávania zákazníkov lebo si uvedomujem, že úspech podnikania závisí od zákazníkov. Spolu s kolegami sa snažíme o minimalistickú a hlavne funkčnú prácu pri každom produkte.“",
 
   // our work page
 

@@ -134,9 +134,9 @@ const langEn = {
 
   "#team-matus-k > p": `“Realizing the customer's vision is always a welcome challenge for me. It brings me joy when I can turn your vision into reality, and that's exactly why I'm here.”`,
 
-  "#team-stef-m > .title > .position": "Web Design",
+  // "#team-stef-m > .title > .position": "Web Design",
 
-  "#team-stef-m > p": `"As a dedicated professional, I aim to exceed customer expectations, recognizing that a company's success hinges on its customers. Joining like-minded individuals, I strive for minimalistic, functional excellence in every product."`,
+  // "#team-stef-m > p": `"As a dedicated professional, I aim to exceed customer expectations, recognizing that a company's success hinges on its customers. Joining like-minded individuals, I strive for minimalistic, functional excellence in every product."`,
 
   // our work page
 
