@@ -37,10 +37,9 @@ const langEn = {
 
   ".our-work > h1": "Successful Projects",
 
-  "#caselink-client > .text-container > p": "Case Competition Platfrom",
+  "#vasevolby-client > .text-container > p": "NGO Covering Elections in Slovakia",
 
-  "#caselink-client > .text-container > ul":
-    "<li>Design</li><li>Development</li><li>System Management</li>",
+  "#vasevolby-client > .text-container > ul": "<li>Design</li><li>Development</li><li>Social Media Management</li>",
 
   "#lalizu-client > .text-container > p": "Wellness and Health Centre",
 

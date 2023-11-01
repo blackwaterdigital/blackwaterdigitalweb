@@ -36,10 +36,9 @@ const langSk = {
 
   ".our-work > h1": "Úspešné projekty",
 
-  "#caselink-client > .text-container > p": "Platforma pre biznis súťaže",
+  "#vasevolby-client > .text-container > p": "Občianske združenie pre voľby",
 
-  "#caselink-client > .text-container > ul":
-    "<li>Dizajn</li><li>Vývoj</li><li>Systémový management</li>",
+  "#vasevolby-client > .text-container > ul": "<li>Dizajn</li><li>Vývoj</li><li>Management sociálnych sietí</li>",
 
   "#lalizu-client > .text-container > p": "Ateliér zdravia a krásy",
 

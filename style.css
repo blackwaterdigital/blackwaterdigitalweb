@@ -610,9 +610,9 @@
     }
 
     /* Consider putting full color pics */
-    .our-work > .work-showcase-container > #caselink-client > .preview-client,
-    .selected-projects-showcase > .work-showcase-container > #caselink-client > .preview-client {
-        background-image: url(/pictures/caselink-client-preview.svg);
+    .our-work > .work-showcase-container > #vasevolby-client > .preview-client,
+    .selected-projects-showcase > .work-showcase-container > #vasevolby-client > .preview-client {
+        background-image: url(/pictures/vasevolby-client-preview.svg);
     }
 
     .our-work > .work-showcase-container > #lalizu-client > .preview-client,
@@ -2457,9 +2457,9 @@
     }
 
     /* Consider putting full color pics */
-    .our-work > .work-showcase-container > #caselink-client > .preview-client,
-    .selected-projects-showcase > .work-showcase-container > #caselink-client > .preview-client {
-        background-image: url(/pictures/caselink-client-preview.svg);
+    .our-work > .work-showcase-container > #vasevolby-client > .preview-client,
+    .selected-projects-showcase > .work-showcase-container > #vasevolby-client > .preview-client {
+        background-image: url(/pictures/vasevolby-client-preview.svg);
     }
 
     .our-work > .work-showcase-container > #lalizu-client > .preview-client,
