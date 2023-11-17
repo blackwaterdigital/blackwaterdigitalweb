@@ -198,6 +198,9 @@ const langSk = {
                 <ul>
                     <li>- Správa webstránky</li>
                 </ul>
+                <ul>
+                    <li>- Oprava/Úprava webstránky</li>
+                </ul>
             </div> 
         </div>
         <div class="package-content-section">

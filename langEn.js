@@ -197,6 +197,9 @@ const langEn = {
                 <ul>
                     <li>- Website Maintenance</li>
                 </ul>
+                <ul>
+                    <li>- Website Repair/Change</li>
+                </ul>
             </div> 
         </div>
         <div class="package-content-section">
