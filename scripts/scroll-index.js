@@ -7,8 +7,8 @@ const ourWorkHeight = document.querySelector(".our-work").clientHeight;
 const separatorHeight = document.querySelector(".separator").clientHeight;
 const servicesShowcaseHeight =
   document.querySelector(".services-showcase").clientHeight;
-const reviewsShowcaseHeight =
-  document.querySelector(".reviews-showcase").clientHeight;
+const reviewsShowcaseHeight = 400
+  // document.querySelector(".reviews-showcase").clientHeight;
 const contactHeight = document.querySelector(".contact").clientHeight;
 
 // services onclick
