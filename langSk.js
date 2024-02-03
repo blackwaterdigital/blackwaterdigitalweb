@@ -63,7 +63,27 @@ const langSk = {
 
   ".reviews-showcase > h1": "Čo hovoria naši klienti",
 
-  // add items of reviews here when text is there
+  ".reviews-showcase > .reviews-showcase-container": '<div class="review-item">' +
+  '<p>“Veľmi rada by som sa chcela podeliť o moju skúsenosť a spolupracú zo spoločnosťou Blackwater Digital. Chalani sú naozaj veľmi milí a nápomocní, nakoľko som neni vôbec technický typ človeka všetko za mňa vyriešili presne tak ako som chcela ale zároveň ma aj usmernili čo bude dobré a čo zasa nie, verím že naša spolupráca sa bude len rozširovať.”</p>' +
+  '<div class="review-item-credits">' +
+  '<p class="name">Zuzana Prešinská</p>' +
+  '<p class="position">Ateliér LALIZU</p>' +
+  '</div>' +
+  '</div>' +
+  '<div class="review-item">' +
+  '<p>“Chlapci s Blackwater mi rýchlo a efektívne spravili stránku, presne tak ako som si to želal. Komunikácia a spolupráca s nimi bola vždy super a hlavne rýchlo vybavili hocijakú požiadavku akú som mal. Služby aj ohľadom sociálnych sietí aj ohľadom webu silno odporúčam.”</p>' +
+  '<div class="review-item-credits">' +
+  '<p class="name">Andy Kraus</p>' +
+  '<p class="position">Agentúra Andyluzia</p>' +
+  '</div>' +
+  '</div>' +
+  '<div class="review-item">' +
+  '<p>“Ocenili sme hlavne profesionálny prístup a rýchlosť práce. Prekvapila nás aj možnosť celú stránku spraviť po anglicky, čo často bola prekážka v ostatných agentúrach. Odporúčame Blackwater Digital každému podniku aj podnikateľovi.”</p>' +
+  '<div class="review-item-credits">' +
+  '<p class="name">Matej Spišák</p>' +
+  '<p class="position">TheCaseLink.com</p>' +
+  '</div>' +
+  '</div>',
 
   ".contact > h1": "Máte záujem s nami spolupracovať?",
 

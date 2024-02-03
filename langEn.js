@@ -64,7 +64,27 @@ const langEn = {
 
   ".reviews-showcase > h1": "What Our Clients Think",
 
-  // add items of reviews here when text is there
+  ".reviews-showcase > .reviews-showcase-container": '<div class="review-item">' +
+  '<p>“I would like to share my experience and cooperation with Blackwater Digital. The guys are really very nice and helpful, and since I am not at all a technical type of person, they solved everything for me exactly as I wanted, but at the same time they guided me on what would be good and what would not, I hope that our cooperation will only expand.”</p>' +
+  '<div class="review-item-credits">' +
+  '<p class="name">Zuzana Prešinská</p>' +
+  '<p class="position">Studio LALIZU</p>' +
+  '</div>' +
+  '</div>' +
+  '<div class="review-item">' +
+  '<p>“The guys at Blackwater built my site quickly and efficiently, just the way I wanted it. Communication and cooperation with them was always great, and above all, they quickly handled any request I had. I strongly recommend the services regarding both social networks and the web.”</p>' +
+  '<div class="review-item-credits">' +
+  '<p class="name">Andy Kraus</p>' +
+  '<p class="position">Andyluzia Agency</p>' +
+  '</div>' +
+  '</div>' +
+  '<div class="review-item">' +
+  '<p>“We especially appreciated the professional approach and speed of work. We were also surprised by the possibility of making the entire site in English, which was often an obstacle in other agencies. We recommend Blackwater Digital to every business and entrepreneur.”</p>' +
+  '<div class="review-item-credits">' +
+  '<p class="name">Matej Spišák</p>' +
+  '<p class="position">TheCaseLink.com</p>' +
+  '</div>' +
+  '</div>',
 
   ".contact > h1": "Interested in Working With Us?",
 
