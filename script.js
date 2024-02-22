@@ -20,9 +20,14 @@ const closeMobileNavBtn = document.querySelector(".close-mobile-nav-btn");
 
 const scrollToTopBtn = document.querySelector(".scroll-to-top-btn");
 
+let popup, popupCloseBtn;
 // popup
-const popup = document.querySelector(".popup-overlay");
-const popupCloseBtn = document.querySelector(".popup-close-btn");
+try {
+  popup = document.querySelector(".popup-overlay");
+  popupCloseBtn = document.querySelector(".popup-close-btn");
+} catch (error) {
+  console.log(`Element ${key} not found on this page!`);
+}
 
 // definitions of nav elements
 const navLogos = document.querySelectorAll(".nav-logo");
@@ -58,10 +63,11 @@ const hideMobileNav = () => {
 };
 
 /*-------------------- Popup ----------------------*/
+if(popup != null) {
 popupCloseBtn.addEventListener("click", () => {
   console.log("clicked");
   popup.classList.add("hidden-popup");
-});
+})}
 
 /*-------------------- Scroll To Top ----------------------*/
 
