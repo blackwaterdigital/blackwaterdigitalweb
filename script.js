@@ -63,11 +63,11 @@ const hideMobileNav = () => {
 };
 
 /*-------------------- Popup ----------------------*/
-if(popup != null) {
-popupCloseBtn.addEventListener("click", () => {
-  console.log("clicked");
-  popup.classList.add("hidden-popup");
-})}
+// if(popup != null) {
+// popupCloseBtn.addEventListener("click", () => {
+//   console.log("clicked");
+//   popup.classList.add("hidden-popup");
+// })}
 
 /*-------------------- Scroll To Top ----------------------*/
 

@@ -118,16 +118,16 @@ const langSk = {
     <li><a href="/documents/privacypolicy_23_sk.pdf">Zásady ochrany osobných údajov</a></li></ul></div>`,
 
   ".footer-bottom-links > p":
-    "© 2023 Blackwater Holdings Limited s. r. o. Všetky práva vyhradené.",
+    "© 2024 Blackwater Digital s. r. o. Všetky práva vyhradené.",
   // add when Copyright © 2023 Blackwater Digital s. r. o. real company exists
 
   // landing page popup
-  ".popup-container > img": 
-  '<img src="/pictures/reward-programme-sk.webp" alt="Obrázok na reklamu pre program odmeňovania." width="400" height="400">',
+  // ".popup-container > img": 
+  // '<img src="/pictures/reward-programme-sk.webp" alt="Obrázok na reklamu pre program odmeňovania." width="400" height="400">',
   
-  ".popup-container > .popup-text":
-  '<p>Máte v okolí niekoho, kto hľadá služby ktoré ponúkame? Chcete si privyrobiť nejaké peniaze? Práve pre Vás sme spravili nový systém odmien. Neváhajte a kontaktujte nás už dnes.</p>' +
-  '<a href="/contact/" class="contact-us-btn">Kontaktujte nás</a>',
+  // ".popup-container > .popup-text":
+  // '<p>Máte v okolí niekoho, kto hľadá služby ktoré ponúkame? Chcete si privyrobiť nejaké peniaze? Práve pre Vás sme spravili nový systém odmien. Neváhajte a kontaktujte nás už dnes.</p>' +
+  // '<a href="/contact/" class="contact-us-btn">Kontaktujte nás</a>', 
 
   // about page
 

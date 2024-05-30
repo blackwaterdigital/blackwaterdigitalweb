@@ -118,16 +118,16 @@ const langEn = {
     <li><a href="/documents/privacypolicy_23_en.pdf">Privacy Policy</a></li></ul></div>`,
 
   ".footer-bottom-links > p":
-    "Copyright © 2023 Blackwater Holdings Limited s. r. o. All rights reserved.",
+    "Copyright © 2024 Blackwater Digital s. r. o. All rights reserved.",
   // add when Copyright © 2023 Blackwater Digital s. r. o. real company exists
 
   // landing page popup
-  ".popup-container > img": 
-  '<img src="/pictures/reward-programme-en.webp" alt="Obrázok na reklamu pre program odmeňovania." width="400" height="400">',
+  // ".popup-container > img": 
+  // '<img src="/pictures/reward-programme-en.webp" alt="Obrázok na reklamu pre program odmeňovania." width="400" height="400">',
   
-  ".popup-container > .popup-text":
-  "<p>Do you know someone who is looking for services that we offer? Do you want to make money? Then our new rewards programme is just the thing for you. Don't hesitate and contact us today.</p>" +
-  '<a href="/contact/" class="contact-us-btn">Contact Us</a>',
+  // ".popup-container > .popup-text":
+  // "<p>Do you know someone who is looking for services that we offer? Do you want to make money? Then our new rewards programme is just the thing for you. Don't hesitate and contact us today.</p>" +
+  // '<a href="/contact/" class="contact-us-btn">Contact Us</a>',
 
   // about page
 
