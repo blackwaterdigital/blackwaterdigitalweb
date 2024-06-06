@@ -349,6 +349,7 @@ const langSk = {
 
   "#contact-page-contact-form": `<input type="hidden" name="accessKey" value="10144dec-a3b0-447b-9462-ca308c366e46">
     <input type="text" name="subject" id="subject" placeholder="Predmet *">
+    <input type="text" name="honeypot" style="display:none">
     <div class="fullname">
         <input type="text" name="name" id="name" placeholder="Meno *">
         <input type="text" name="name" id="surname" placeholder="Priezvisko">
