@@ -27,39 +27,41 @@ const langSk = {
   "#lp-hero-title":
     '<h1>Buďte súčasťou budúcnosti.</h1><h1>Digitalizujte<span class="bold"> Vaše </span>ponikanie s nami.</h1>',
 
-  "#lp-hero-text": `<p>V Blackwater Digital ponúkame digitalizačné služby optimalizované pre miestne alebo rastúce
-                     podniky. Veríme že v digitalizácií je budúcnosť a chceme byť jej aktívnou súčasťou. V našej ponuke nájdete
-                     služby od tvorby webu a marketing a správu sociálnych sietí až po individuálny vývoj alebo systémový dizajn.</p>
-                     <a class="more-about-btn" href="#services-showcase"><p>Naša ponuka</p><p>↓</p></a>`,
+  "#lp-hero-text": `<p>V Blackwater Digital ponúkame digitalizačné služby optimalizované pre miestne alebo rastúce podniky. Veríme že v digitalizácií je budúcnosť a chceme byť jej aktívnou súčasťou. V našej ponuke nájdete služby ako tvorba webu, grafické služby, fotografia alebo správa sociálnych sietí.</p><a class="more-about-btn" href="#services-showcase"><p>Služby</p><p>↓</p></a>`,
 
   "#lp-quote": "Najlepším spôsobom, ako predpovedať budúcnosť, je vytvoriť ju.",
 
-  ".our-work > h1": "Úspešné projekty",
+  ".our-work > h1": "Naši klienti",
 
   "#vasevolby-client > .text-container > p": "Občianske združenie pre voľby",
 
-  "#vasevolby-client > .text-container > ul": "<li>Dizajn</li><li>Vývoj</li><li>Management sociálnych sietí</li>",
+  "#vasevolby-client > .text-container > ul": "<li>Tvorba webu</li><li>Sociálne siete</li><li></li>",
 
   "#lalizu-client > .text-container > p": "Ateliér zdravia a krásy",
 
   "#lalizu-client > .text-container > ul":
-    "<li>Dizajn</li><li>Vývoj</li><li>Management eshop-u</li>",
+    "<li>Tvorba webu</li><li>Sociálne siete</li><li>Grafické služby</li>",
 
-  "#andyluzia-client > .text-container > p": "Eventová agentúra",
+  "#nailden-client > .text-container > p": "Hudobná kapela",
 
-  "#andyluzia-client > .text-container > ul":
-    "<li>Dizajn</li><li>Vývoj</li><li>Marketingový management</li>",
+  "#nailden-client > .text-container > ul":
+    "<li>Sociálne siete</li><li>Grafické služby</li><li>Fotografia</li>",
 
-  "#lp-pckg-dig":
-    "<h3>Digitalizácia</h3><p>Posuňte svoj biznis na nový level.</p><ul><li>Web dizajn</li><li>Vývoj webu</li><li>Management sociálnych sietí</li></ul>",
+  "#lp-pckg-web":
+    "<h3>Tvorba webu</h3><p>Digitálna vizitka pre vaše podnikanie.</p><ul><li>Web dizajn</li><li>Vývoj webu</li><li>SEO</li><li>Správa webu</li></ul>",
 
-  "#lp-pckg-aut":
-    "<h3>Automatizácia</h3><p>Uľahčite si každodenné operácie.</p><ul><li>Individuálny vývoj</li><li>Vývoj interných nástrojov</li><li>Systémový dizajn</li></ul>",
+  "#lp-pckg-sm":
+    "<h3>Sociálne siete</h3><p>Reprezentácia Vášho podnikania.</p><ul><li>Management</li><li>Analýza</li><li>Tvorba contentu</li><li>Copywriting</li></ul>",
 
-  "#services-showcase > h1": "Balíčky služieb",
+  "#lp-pckg-grs":
+    "<h3>Grafické služby</h3><p>Váš profesionálny imidž.</p><ul><li>Brand identity</li><li>Digitálne materiály</li><li>Grafické návrhy</li><li>Tlač</li></ul>",
 
-  "#services-showcase > p":
-    "Ponúkame balíčky s individuálnymi službami. Stačí si len vybrať balíček, ktorý sa Vám najviac hodí.",
+  "#lp-pckg-foto":
+    "<h3>Fotografia</h3><p>Zachyťte dôležité momenty.</p><ul><li>Fotografia eventov</li><li>Fotografia obsahu</li><li>Úprava fotografií na mieru</li><li>Video záznamy</li></ul>",
+
+  "#services-showcase > h1": "Digitalizačné služby",
+
+  "#services-showcase > p": "Ponuka našich digitalizačných služieb.",
 
   ".reviews-showcase > h1": "Čo hovoria naši klienti",
 
@@ -76,13 +78,6 @@ const langSk = {
   '<p class="name">Andy Kraus</p>' +
   '<p class="position">Agentúra Andyluzia</p>' +
   '</div>' +
-  '</div>' +
-  '<div class="review-item">' +
-  '<p>“Ocenili sme hlavne profesionálny prístup a rýchlosť práce. Prekvapila nás aj možnosť celú stránku spraviť po anglicky, čo často bola prekážka v ostatných agentúrach. Odporúčame Blackwater Digital každému podniku aj podnikateľovi.”</p>' +
-  '<div class="review-item-credits">' +
-  '<p class="name">Matej Spišák</p>' +
-  '<p class="position">TheCaseLink.com</p>' +
-  '</div>' +
   '</div>',
 
   ".contact > h1": "Máte záujem s nami spolupracovať?",
@@ -96,38 +91,60 @@ const langSk = {
   "#lp-contact-btn": "<p>Kontaktujte nás</p><p>→</p>",
 
   ".footer-menu": `<div class="footer-row">
-    <h6>Digitalizačné služby</h6>
-    <ul><li><a href="/services/">Web dizajn</a></li>
-    <li><a href="/services/">Vývoj webu</a></li>
-    <li><a href="/services/">Sociálne siete</a></li>
-    <li><a href="/services/">Dizajn značky</a></li>
-    <li><a href="/services/">Fotografia pre značku</a></li></ul></div>
-    <div class="footer-row">
-    <h6>Automatizačné služby</h6>
-    <ul><li><a href="/services/">Individuálny vývoj</a></li>
-    <li><a href="/services/">Vývoj interných nástrojov</a></li>
-    <li><a href="/services/">Systémový dizajn</a></li></ul></div>
-    <div class="footer-row"><h6>O nás</h6>
-    <ul><li><a href="/about/">Programové prehlásenie</a></li>
-    <li><a href="/about/">Vízia</a></li>
-    <li><a href="/about/">Motivácia</a></li>
-    <li><a href="/about/">Spoznajte náš tím</a></li></ul></div>
-    <div class="footer-row">
-    <h6>Právne</h6>
-    <ul><li><a href="/documents/imprint_23.pdf" target="_blank">Impressum</a></li>
-    <li><a href="/documents/privacypolicy_23_sk.pdf">Zásady ochrany osobných údajov</a></li></ul></div>`,
+                <h6>Tvorba webu</h6>
+                <ul>
+                    <li><a href="/services/">Web dizajn</a></li>
+                    <li><a href="/services/">Vývoj web</a></uli>
+                    <li><a href="/services/">SEO</a></li>
+                    <li><a href="/services/">Správa webu</a></li>
+                </ul>
+            </div>
+            <div class="footer-row">
+                <h6>Sociálne siete</h6>
+                <ul>
+                    <li><a href="/services/">Management</a></li>
+                    <li><a href="/services/">Analýza</a></uli>
+                    <li><a href="/services/">Tvorba contentu</a></li>
+                    <li><a href="/services/">Copywriting</a></li>
+                </ul>
+            </div>
+            <div class="footer-row">
+                <h6>Grafické služby</h6>
+                <ul>
+                    <li><a href="/services/">Brand identity</a></li>
+                    <li><a href="/services/">Digitálne materiály</a></uli>
+                    <li><a href="/services/">Grafické návrhy</a></li>
+                    <li><a href="/services/">Tlač</a></li>
+                </ul>
+            </div>
+            <div class="footer-row">
+                <h6>Fotografia</h6>
+                <ul>
+                    <li><a href="/services/">Fotografia eventov</a></li>
+                    <li><a href="/services/">Fotografia obsahu</a></li>
+                    <li><a href="/services/">Úprava fotografií na mieru</a></li>
+                    <li><a href="/services/">Video záznamy</a></li>
+                </ul>
+            </div>
+            <div class="footer-row">
+                <h6>O nás</h6>
+                <ul>
+                    <li><a href="/about/">Programové prehlásenie</a></li>
+                    <li><a href="/about/">Vízia</a></li>
+                    <li><a href="/about/">Motivácia</a></li>
+                    <li><a href="/about/">Spoznajte náš tím</a></li>
+                </ul>
+            </div>
+            <div class="footer-row">
+                <h6>Právne</h6>
+                <ul>
+                    <li><a href="/documents/imprint_24.pdf" target="_blank">Impressum</a></li>
+                    <li><a href="/documents/privacypolicy_24_sk.pdf" target="_blank">Zásady ochrany osobných údajov</a></li>
+                </ul>
+            </div>`,
 
   ".footer-bottom-links > p":
     "© 2024 Blackwater Digital s. r. o. Všetky práva vyhradené.",
-  // add when Copyright © 2023 Blackwater Digital s. r. o. real company exists
-
-  // landing page popup
-  // ".popup-container > img": 
-  // '<img src="/pictures/reward-programme-sk.webp" alt="Obrázok na reklamu pre program odmeňovania." width="400" height="400">',
-  
-  // ".popup-container > .popup-text":
-  // '<p>Máte v okolí niekoho, kto hľadá služby ktoré ponúkame? Chcete si privyrobiť nejaké peniaze? Práve pre Vás sme spravili nový systém odmien. Neváhajte a kontaktujte nás už dnes.</p>' +
-  // '<a href="/contact/" class="contact-us-btn">Kontaktujte nás</a>', 
 
   // about page
 
@@ -156,7 +173,7 @@ const langSk = {
   "#team-boris-k > p":
     "„Ako spoločník aj ako obchodník som hrdý na to, že napĺňam potreby zákazníkov, až dokým nie sú úplne spokojní. O tom by podľa mňa malo byť podnikanie. Byť tu, keď vás zákazník  naozaj potrebuje.“",
 
-  "#team-matus-k > .title > .position": "Vedúci web tvorby",
+  "#team-matus-k > .title > .position": "Vedúci web dizajnu a vývoja",
 
   "#team-matus-k > p":
     "„Zrealizovať predstavu zákazníka je pre mňa vždy privítaná výzva. Prináša mi radosť keď môžem premeniť Vašu víziu na realitu a práve preto som tu.”",
@@ -169,10 +186,10 @@ const langSk = {
   // our work page
 
   "#our-work-hero-title":
-    '<h1>Pozrite si naše ukončené projekty.</h1><h1>Predstavte si čo<span class="bold"> dokážeme </span>spolu.</h1>',
+    '<h1>Naša práca.</h1><h1>Pridajte sa k našim <span class="bold">klientom</span>.</h1>',
 
   "#our-work-hero-text":
-    "<p>Ponúkame Vám naše portfólio, ktoré Vám má naznačiť všetko čo vieme spolu vytvoriť.</p>",
+    "<p>Prezrite si portfólio našich spoluprác.</p>",
 
   ".selected-projects-showcase > h1": "Vybrané projekty",
 
@@ -182,164 +199,52 @@ const langSk = {
     "Platforma pre biznis súťaže",
 
   ".all-projects-showcase > .work-showcase-container > #caselink-client > .text-container > ul":
-    "<li>Dizajn</li><li>Vývoj</li><li>Systémový management</li>",
+    "<li>Tvorba webu</li><li>Systémový management</li><li></li>",
 
   ".all-projects-showcase > .work-showcase-container > #lalizu-client > .text-container > p":
     "Ateliér zdravia a krásy",
 
   ".all-projects-showcase > .work-showcase-container > #lalizu-client > .text-container > ul":
-    "<li>Dizajn</li><li>Vývoj</li><li>Management eshop-u</li>",
+    "<li>Tvorba webu</li><li>Sociálne siete</li><li>Grafické služby</li>",
 
   ".all-projects-showcase > .work-showcase-container > #andyluzia-client > .text-container > p":
     "Eventová Agentúra",
 
   ".all-projects-showcase > .work-showcase-container > #andyluzia-client > .text-container > ul":
-    "<li>Dizajn</li><li>Vývoj</li><li>Marketingový management</li>",
+    "<li>Tvorba webu</li><li>Sociálne siete</li><li></li>",
 
   ".all-projects-showcase > .work-showcase-container > #vasevolby-client > .text-container > p":
     "Občianske združenie pre voľby",
 
   ".all-projects-showcase > .work-showcase-container > #vasevolby-client > .text-container > ul":
-    "<li>Dizajn</li><li>Vývoj</li><li>Management sociálnych sietí</li>",
+    "<li>Tvorba webu</li><li>Sociálne siete</li><li></li>",
+
+  ".all-projects-showcase > .work-showcase-container > #nailden-client > .text-container > p": "Hudobná kapela",
+
+  ".all-projects-showcase > .work-showcase-container > #nailden-client > .text-container > ul":
+    "<li>Sociálne siete</li><li>Grafické služby</li><li>Fotografia</li>",
+
+  ".all-projects-showcase > .work-showcase-container > #lotroastery-client > .text-container > p":
+    "Eshop na kávu",
+
+  ".all-projects-showcase > .work-showcase-container > #lotroastery-client > .text-container > ul":
+    "<li>Oprava webu</li><li></li><li></li>",
+
+  ".all-projects-showcase > .work-showcase-container > #vexion-client > .text-container > p":
+    "All-in-one software platforma",
+
+  ".all-projects-showcase > .work-showcase-container > #vexion-client > .text-container > ul":
+    "<li>Spolupráca</li><li>Webové nástroje na mieru</li><li></li>",
+
+  ".all-projects-showcase > .work-showcase-container > #expat-client > .text-container > p":
+    "Realitná kancelária",
+
+  ".all-projects-showcase > .work-showcase-container > #expat-client > .text-container > ul":
+    "<li>Grafické služby</li><li>Tvorba contentu</li><li></li>",
 
   // services page
 
-  "#services-hero-title > h1": "Služby",
-
-  ".digitalization-package": `<h1>Digitalizačný balík</h1>
-    <div class="package-content">
-        <h2>Vyberte si <strong>Základný balík</strong></h2>
-        <div class="package-content-section">
-            <div class="title">
-                <h4>Reprezentatívna webstránka</h4>
-                <p>Pripravíme pre Vás webstránku ktorá Vás bude reprezentovať na základe dizajnu, ktorý pre Vás pripravíme alebo nám ho dodáte.</p>
-            </div>
-            <div class="items">
-                <ul>
-                    <li>- Až 3 podstránky (Domov, Kontakt, Služby)</li>
-                    <li class="tab">+ Dizajn webstránky</li>
-                </ul>
-                <ul>
-                    <li>- Komplexná webstránka – od 4och podstránok</li>
-                    <li class="tab">+ Dizajn webstránky</li>
-                </ul>
-                <ul>
-                    <li>- Správa webstránky</li>
-                </ul>
-                <ul>
-                    <li>- Oprava/Úprava webstránky</li>
-                </ul>
-            </div> 
-        </div>
-        <div class="package-content-section">
-            <div class="title">
-                <h4>Sociálne siete</h4>
-                <p>Dizajnujeme, tvoríme a spravujeme Vaše profily na sociálnych sieťach.</p>
-            </div>
-            <div class="items">
-                <ul>
-                    <li class="dash">- Identita a imidž na sociálnych sieťach</li>
-                </ul>
-                <ul>
-                    <li class="dash">- Tvorba sociálnych sietí na základe podkladov</li>
-                </ul>
-                <ul>
-                    <li class="dash">- Správa sociálnych sietí</li>
-                    <li class="dash tab">- 3 príspevky, 3 stories týždenne</li>
-                    <li class="dash tab">- 5 príspevkov, 7 stories týždenne</li>
-                    <li class="dash tab">- 7 príspevkov, 14 stories týždenne</li>
-                    <li class="dash tab">- Správa na mieru</li>
-                </ul>
-            </div> 
-        </div>
-    </div>
-    <div class="package-content">
-        <h2>Pridajte si <strong>Doplnkové služby</strong></h2>
-        <div class="package-content-section">
-            <div class="title">
-                <h4>Dizajn pre firmu</h4>
-                <p>Elegantný dizajn pre Vašu firmu.</p>
-            </div>
-            <div class="items">
-                <ul>
-                    <li class="dash">- Dizajn Manuál (logo, paleta farieb, návrh webstránky a návrhy pre sociálne siete)</li>
-                    <li class="dash tab">- 1 revízia</li>
-                    <li class="plus double-tab">+ 1 extra revízia</li>
-                    <li class="dash">- Návrh loga</li>
-                    <li class="dash tab">- 3 revízie</li>
-                    <li class="plus double-tab">+ 1 extra revízia</li>
-                    <li class="dash">- Dizajnérske práce na mieru</li>
-                </ul>
-            </div> 
-        </div>
-        <div class="package-content-section">
-            <div class="title">
-                <h4>Firemné fotografie</h4>
-                <p>Prídeme priamo k Vám a nafotíme pre Vás reprezentatívne fotky pre Vašu firmu.</p>
-            </div>
-            <div class="items">
-                <ul>
-                    <li class="dash">- Fotenie (3hod)</li>
-                    <li class="plus tab">+ Adresa mimo Bratislavy</li>
-                </ul>
-            </div>
-        </div>
-    </div>`,
-
-  ".automatization-package": `<h1>Automatizačný balík</h1>
-    <div class="package-content">
-        <h2>Vyberte si z našich <strong>Základných služieb</strong></h2>
-        <div class="package-content-section">
-            <div class="title">
-                <h4>Konzultácie a plánovanie</h4>
-                <p>Povedzte nám svoj nápad a Vám ho pomôžeme zrealizovať ho.</p>
-            </div>
-            <div class="items">
-                <ul>
-                    <li>- Konzultácie a návrhy riešení</li>
-                </ul>
-                <ul>
-                    <li>- Dizajn funkcionality systému</li>
-                </ul>
-                <ul>
-                    <li>- Dizajn samotného produktu</li>
-                </ul>
-            </div> 
-        </div>
-        <div class="package-content-section">
-            <div class="title">
-                <h4>Programovanie a údržba</h4>
-                <p>Posuňte svoj nápad o úroveň vyššie.</p>
-            </div>
-            <div class="items">
-                <ul>
-                    <li>- Naprogramovanie Vášho produktu</li>
-                </ul>
-                <ul>
-                    <li>- Údržba Vášho produktu</li>
-                </ul>
-                <ul>
-                    <li>- Oprava technických chýb už v existujúcom produkte</li>
-                </ul>
-            </div> 
-        </div>
-    </div>
-    <div class="package-content">
-        <h2>Vyberte si z našich <strong>Dodatočných služieb</strong></h2>
-        <div class="package-content-section">
-            <div class="items">
-                <ul>
-                    <li>- Marketing a predaj</li>
-                </ul>
-                <ul>
-                    <li>- Prispôsobenie na mobil alebo web</li>
-                </ul>
-                <ul>
-                    <li>- Manažment zákazníckej komunikácie</li>
-                </ul>
-            </div>
-        </div>
-    </div>`,
+  "#services-hero-title > h1": "Digitalizačné služby",
 
   // contact page
 

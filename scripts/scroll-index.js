@@ -20,6 +20,16 @@ servicesPackages.forEach((servicePackage) => {
   });
 });
 
+// clients onclick
+const clients = document.querySelectorAll(".work-showcase-item");
+
+clients.forEach((client) => {
+  const clientUrl = client.querySelector('a').href;
+  client.addEventListener("click", () => {
+    window.open(clientUrl, '_blank');
+  });
+});
+
 // switching color of nav based on background
 window.addEventListener("load", () => {
   // switching nav color based on background

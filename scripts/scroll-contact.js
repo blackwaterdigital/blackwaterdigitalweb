@@ -14,7 +14,11 @@ const contactBannerHeight = document.querySelector(
 window.addEventListener("load", () => {
   // switching nav color based on background
   window.addEventListener("scroll", () => {
-    if (
+    if (window.scrollY < contactHeroHeight / 4) {
+      // transparent
+      header.classList.remove("dark");
+      header.classList.remove("light");
+    } else if (window.scrollY >= contactHeroHeight / 4 &&
       window.scrollY <
       contactHeroHeight - 100
     ) {

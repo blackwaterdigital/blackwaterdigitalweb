@@ -27,45 +27,47 @@ const langEn = {
   "#lp-hero-title":
     '<h1>Take part in the future.</h1><h1>Digitalize<span class="bold"> your </span>business with us.</h1>',
 
-  "#lp-hero-text": `<p>At Blackwater Digital we offer tailored digitalization services for local or growing businesses. 
-                     We believe that digitalization is the future and want to be an active part of this global shift.
-                     Our services range from web creation and social media management and marketing to individual
-                     development and system design.</p>
-                     <a class="more-about-btn" href="#services-showcase"><p>What We Offer</p><p>↓</p></a>`,
+  "#lp-hero-text": `<p>At Blackwater Digital we offer tailored digitalization services for local or growing businesses. We believe that digitalization is the future and want to be an active part of this global shift. We offer services such as web design, graphic services, photography or social network management.</p><a class="more-about-btn" href="#services-showcase"><p>Services</p><p>↓</p></a>`,
 
   "#lp-quote": "The best way to predict the future is to create it.",
 
-  ".our-work > h1": "Successful Projects",
+  ".our-work > h1": "Our Clients",
 
   "#vasevolby-client > .text-container > p": "NGO Covering Elections in Slovakia",
 
-  "#vasevolby-client > .text-container > ul": "<li>Design</li><li>Development</li><li>Social Media Management</li>",
+  "#vasevolby-client > .text-container > ul": "<li>Web Services</li><li>Social Media</li><li></li>",
 
   "#lalizu-client > .text-container > p": "Wellness and Health Centre",
 
   "#lalizu-client > .text-container > ul":
-    "<li>Design</li><li>Development</li><li>Eshop Management</li>",
+    "<li>Web Services</li><li>Social Media</li><li>Graphic Services</li>",
 
-  "#andyluzia-client > .text-container > p": "Event Organizer Agency",
+  "#nailden-client > .text-container > p": "Music Band",
 
-  "#andyluzia-client > .text-container > ul":
-    "<li>Design</li><li>Development</li><li>Marketing Management</li>",
+  "#nailden-client > .text-container > ul":
+    "<li>Social Media</li><li>Graphic Services</li><li>Photography</li>",
 
-  "#lp-pckg-dig":
-    "<h3>Digitalization</h3><p>Take your business to the next level.</p><ul><li>Web Design</li><li>Web Development</li><li>Social Media Management</li></ul>",
+  "#lp-pckg-web":
+    "<h3>Web Services</h3><p>Your digital business card.</p><ul><li>Web Design</li><li>Web Development</li><li>SEO</li><li>Web Management</li></ul>",
 
-  "#lp-pckg-aut":
-    "<h3>Automatization</h3><p>Simplify your day to day operations.</p><ul><li>Individual Development</li><li>Internal Tools Development</li><li>System Design</li></ul>",
+  "#lp-pckg-sm":
+    "<h3>Social Media</h3><p>A representation of your business.</p><ul><li>Management</li><li>Analysis</li><li>Content Creation</li><li>Copywriting</li></ul>",
 
-  "#services-showcase > h1": "Service Packages",
+  "#lp-pckg-grs":
+    "<h3>Graphic Services</h3><p>Your professional brand image.</p><ul><li>Brand Identity</li><li>Digital Materials</li><li>Graphic Design</li><li>Print</li></ul>",
+
+  "#lp-pckg-foto":
+    "<h3>Photography</h3><p>Capture the moments that matter.</p><ul><li>Event Photography</li><li>Content Photography</li><li>Custom Picture Editing</li><li>Video Recordings</li></ul>",
+
+  "#services-showcase > h1": "Digitalization Services",
 
   "#services-showcase > p":
-    "We offer packages with individual products. Select the right package based on your needs.",
+    "The digitalization services we offer.",
 
   ".reviews-showcase > h1": "What Our Clients Think",
 
   ".reviews-showcase > .reviews-showcase-container": '<div class="review-item">' +
-  '<p>“I would like to share my experience and cooperation with Blackwater Digital. The guys are really very nice and helpful, and since I am not at all a technical type of person, they solved everything for me exactly as I wanted, but at the same time they guided me on what would be good and what would not, I hope that our cooperation will only expand.”</p>' +
+  '<p>“The guys are really very nice and helpful, and since I am not at all a technical type of person, they solved everything for me exactly as I wanted, but at the same time they guided me on what would be good and what would not, I hope that our cooperation will only expand.”</p>' +
   '<div class="review-item-credits">' +
   '<p class="name">Zuzana Prešinská</p>' +
   '<p class="position">Studio LALIZU</p>' +
@@ -76,13 +78,6 @@ const langEn = {
   '<div class="review-item-credits">' +
   '<p class="name">Andy Kraus</p>' +
   '<p class="position">Andyluzia Agency</p>' +
-  '</div>' +
-  '</div>' +
-  '<div class="review-item">' +
-  '<p>“We especially appreciated the professional approach and speed of work. We were also surprised by the possibility of making the entire site in English, which was often an obstacle in other agencies. We recommend Blackwater Digital to every business and entrepreneur.”</p>' +
-  '<div class="review-item-credits">' +
-  '<p class="name">Matej Spišák</p>' +
-  '<p class="position">TheCaseLink.com</p>' +
   '</div>' +
   '</div>',
 
@@ -97,37 +92,60 @@ const langEn = {
   "#lp-contact-btn": "<p>Contact Us</p><p>→</p>",
 
   ".footer-menu": `<div class="footer-row">
-    <h6>Digitalization Services</h6>
-    <ul><li><a href="/services/">Web Design</a></li>
-    <li><a href="/services/">Web Development</a></li>
-    <li><a href="/services/">Social Media</a></li>
-    <li><a href="/services/">Brand Design</a></li>
-    <li><a href="/services/">Branding Photography</a></li></ul></div>
-    <div class="footer-row">
-    <h6>Automatization Services</h6>
-    <ul><li><a href="/services/">Individual Development</a></li>
-    <li><a href="/services/">Internal Tools Development</a></li>
-    <li><a href="/services/">System Design</a></li></ul></div>
-    <div class="footer-row"><h6>About</h6>
-    <ul><li><a href="/about/">Mission Statement</a></li>
-    <li><a href="/about/">Vision</a></li>
-    <li><a href="/about/">Our Motivation</a></li>
-    <li><a href="/about/">Meet the Team</a></li></ul></div>
-    <div class="footer-row"><h6>Legal</h6>
-    <ul><li><a href="/documents/imprint_23.pdf" target="_blank">Imprint</a></li>
-    <li><a href="/documents/privacypolicy_23_en.pdf">Privacy Policy</a></li></ul></div>`,
+                <h6>Web Services</h6>
+                <ul>
+                    <li><a href="/services/">Web Design</a></li>
+                    <li><a href="/services/">Web Development</a></uli>
+                    <li><a href="/services/">SEO</a></li>
+                    <li><a href="/services/">Web Management</a></li>
+                </ul>
+            </div>
+            <div class="footer-row">
+                <h6>Social Media</h6>
+                <ul>
+                    <li><a href="/services/">Management</a></li>
+                    <li><a href="/services/">Analysis</a></uli>
+                    <li><a href="/services/">Content Creation</a></li>
+                    <li><a href="/services/">Copywriting</a></li>
+                </ul>
+            </div>
+            <div class="footer-row">
+                <h6>Graphic Services</h6>
+                <ul>
+                    <li><a href="/services/">Brand Identity</a></li>
+                    <li><a href="/services/">Digital Materials</a></uli>
+                    <li><a href="/services/">Graphic Design</a></li>
+                    <li><a href="/services/">Print</a></li>
+                </ul>
+            </div>
+            <div class="footer-row">
+                <h6>Photography</h6>
+                <ul>
+                    <li><a href="/services/">Event Photography</a></li>
+                    <li><a href="/services/">Content Photography</a></li>
+                    <li><a href="/services/">Custom Picture Editing</a></li>
+                    <li><a href="/services/">Video Recordings</a></li>
+                </ul>
+            </div>
+            <div class="footer-row">
+                <h6>About</h6>
+                <ul>
+                    <li><a href="/about/">Mission Statement</a></li>
+                    <li><a href="/about/">Vision</a></li>
+                    <li><a href="/about/">Our Motivation</a></li>
+                    <li><a href="/about/">Meet the Team</a></li>
+                </ul>
+            </div>
+            <div class="footer-row">
+                <h6>Legal</h6>
+                <ul>
+                    <li><a href="/documents/imprint_24.pdf" target="_blank">Imprint</a></li>
+                    <li><a href="/documents/privacypolicy_24_en.pdf" target="_blank">Privacy Policy</a></li>
+                </ul>
+            </div>`,
 
   ".footer-bottom-links > p":
     "Copyright © 2024 Blackwater Digital s. r. o. All rights reserved.",
-  // add when Copyright © 2023 Blackwater Digital s. r. o. real company exists
-
-  // landing page popup
-  // ".popup-container > img": 
-  // '<img src="/pictures/reward-programme-en.webp" alt="Obrázok na reklamu pre program odmeňovania." width="400" height="400">',
-  
-  // ".popup-container > .popup-text":
-  // "<p>Do you know someone who is looking for services that we offer? Do you want to make money? Then our new rewards programme is just the thing for you. Don't hesitate and contact us today.</p>" +
-  // '<a href="/contact/" class="contact-us-btn">Contact Us</a>',
 
   // about page
 
@@ -157,7 +175,7 @@ const langEn = {
   "#team-boris-k > p":
     "“As a company and as a businessman I take pride in fulfilling the needs of customers until they are fully satisfied. That’s what I believe a business is supposed to be all about. Being there when your customer needs you.”",
 
-  "#team-matus-k > .title > .position": "Lead Web Creation",
+  "#team-matus-k > .title > .position": "Lead Web Design and Development",
 
   "#team-matus-k > p": `“Realizing the customer's vision is always a welcome challenge for me. It brings me joy when I can turn your vision into reality, and that's exactly why I'm here.”`,
 
@@ -168,10 +186,10 @@ const langEn = {
   // our work page
 
   "#our-work-hero-title":
-    '<h1>Browse our past projects.</h1><h1>See what we can<span class="bold"> achieve </span>together.</h1>',
+    '<h1>Our work.</h1><h1>Join our<span class="bold"> clients</span>.</h1>',
 
   "#our-work-hero-text":
-    "<p>Our portfolio of projects to better illustrate what we can create together for your business.</p>",
+    "<p>Browse through the portfolio of our collaborations.</p>",
 
   ".selected-projects-showcase > h1": "Selected Projects",
 
@@ -181,29 +199,52 @@ const langEn = {
     "Case Competition Platfrom",
 
   ".all-projects-showcase > .work-showcase-container > #caselink-client > .text-container > ul":
-    "<li>Design</li><li>Development</li><li>System Management</li>",
+    "<li>Web Services</li><li>System Management</li><li></li>",
 
   ".all-projects-showcase > .work-showcase-container >#lalizu-client > .text-container > p":
     "Wellness and Health Centre",
 
   ".all-projects-showcase > .work-showcase-container > #lalizu-client > .text-container > ul":
-    "<li>Design</li><li>Development</li><li>Eshop Management</li>",
+    "<li>Web Services</li><li>Social Media</li><li>Graphic Services</li>",
 
   ".all-projects-showcase > .work-showcase-container > #andyluzia-client > .text-container > p":
     "Event Organizer Agency",
 
   ".all-projects-showcase > .work-showcase-container > #andyluzia-client > .text-container > ul":
-    "<li>Design</li><li>Development</li><li>Marketing Management</li>",
+    "<li>Web Services</li><li>Social Media</li><li></li>",
 
   ".all-projects-showcase > .work-showcase-container > #vasevolby-client > .text-container > p":
     "NGO Covering Elections in Slovakia",
 
   ".all-projects-showcase > .work-showcase-container > #vasevolby-client > .text-container > ul":
-    "<li>Design</li><li>Development</li><li>Social Media Management</li>",
+    "<li>Web Services</li><li>Social Media</li><li></li>",
+
+  ".all-projects-showcase > .work-showcase-container > #nailden-client > .text-container > p": "Music Band",
+
+  ".all-projects-showcase > .work-showcase-container > #nailden-client > .text-container > ul":
+    "<li>Social Media</li><li>Graphic Services</li><li>Photography</li>",
+
+  ".all-projects-showcase > .work-showcase-container > #lotroastery-client > .text-container > p":
+    "Coffee Eshop",
+
+  ".all-projects-showcase > .work-showcase-container > #lotroastery-client > .text-container > ul":
+    "<li>Web Services</li><li></li><li></li>",
+
+  ".all-projects-showcase > .work-showcase-container > #vexion-client > .text-container > p":
+    "All-in-one software platform",
+
+  ".all-projects-showcase > .work-showcase-container > #vexion-client > .text-container > ul":
+    "<li>Cooperation</li><li>Custom Web Tools</li><li></li>",
+
+  ".all-projects-showcase > .work-showcase-container > #expat-client > .text-container > p":
+    "Real-Estate Agency",
+
+  ".all-projects-showcase > .work-showcase-container > #expat-client > .text-container > ul":
+    "<li>Graphic Services</li><li>Content Creation</li><li></li>",
 
   // services page
 
-  "#services-hero-title > h1": "Services",
+  "#services-hero-title > h1": "Digitalization Services",
 
   ".digitalization-package": `<h1>Digitalization Package</h1>
     <div class="package-content">

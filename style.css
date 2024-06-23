@@ -450,6 +450,7 @@
         align-self: stretch;
     }
 
+    .author-container > h2,
     .author-container > h3 {
         color: var(--highlight-color);
         text-align: center;
@@ -513,12 +514,21 @@
         align-items: flex-start;
         flex-shrink: 0;
         background-color: var(--main-color);
+        cursor: pointer;
+        transition: all 0.15s linear;
+    }
+
+    .our-work > .work-showcase-container > .work-showcase-item:hover,
+    .selected-projects-showcase > .work-showcase-container > .work-showcase-item:hover,
+    .all-projects-showcase > .work-showcase-container > .work-showcase-item:hover {
+        transform: scale(1.1);
     }
 
     .our-work > .work-showcase-container > .work-showcase-item > .text-container,
     .services-showcase > .services-showcase-container > .product-package > .text-container,
     .selected-projects-showcase > .work-showcase-container > .work-showcase-item > .text-container,
-    .all-projects-showcase > .work-showcase-container > .work-showcase-item > .text-container {
+    .all-projects-showcase > .work-showcase-container > .work-showcase-item > .text-container,
+    .services-page > .services-showcase-container > .product-package > .text-container {
         display: flex;
         padding: 20px;
         box-sizing: border-box;
@@ -532,7 +542,8 @@
     .our-work > .work-showcase-container > .work-showcase-item > .text-container > h3,
     .services-showcase > .services-showcase-container > .product-package > .text-container > h3,
     .selected-projects-showcase > .work-showcase-container > .work-showcase-item > .text-container > h3,
-    .all-projects-showcase > .work-showcase-container > .work-showcase-item > .text-container > h3 {
+    .all-projects-showcase > .work-showcase-container > .work-showcase-item > .text-container > h3,
+    .services-page > .services-showcase-container > .product-package > .text-container > h3 {
         display: flex;
         padding: 6px 2px 10px 1px;
         justify-content: center;
@@ -551,7 +562,8 @@
     .our-work > .work-showcase-container > .work-showcase-item > .text-container > p,
     .services-showcase > .services-showcase-container > .product-package > .text-container > p,
     .selected-projects-showcase > .work-showcase-container > .work-showcase-item > .text-container > p,
-    .all-projects-showcase > .work-showcase-container > .work-showcase-item > .text-container > p {
+    .all-projects-showcase > .work-showcase-container > .work-showcase-item > .text-container > p,
+    .services-page > .services-showcase-container > .product-package > .text-container > p {
         color: var(--highlight-color);
         font-family: var(--special-font);
         font-size: 14px;
@@ -565,7 +577,8 @@
     .our-work > .work-showcase-container > .work-showcase-item > .text-container > ul,
     .services-showcase > .services-showcase-container > .product-package > .text-container > ul,
     .selected-projects-showcase > .work-showcase-container > .work-showcase-item > .text-container > ul,
-    .all-projects-showcase > .work-showcase-container > .work-showcase-item > .text-container > ul {
+    .all-projects-showcase > .work-showcase-container > .work-showcase-item > .text-container > ul,
+    .services-page > .services-showcase-container > .product-package > .text-container > ul {
         list-style: none;
         display: flex;
         flex-direction: column;
@@ -580,7 +593,8 @@
     .our-work > .work-showcase-container > .work-showcase-item > .text-container > ul > li,
     .services-showcase > .services-showcase-container > .product-package > .text-container > ul > li,
     .selected-projects-showcase > .work-showcase-container > .work-showcase-item > .text-container > ul > li,
-    .all-projects-showcase > .work-showcase-container > .work-showcase-item > .text-container > ul > li {
+    .all-projects-showcase > .work-showcase-container > .work-showcase-item > .text-container > ul > li,
+    .services-page > .services-showcase-container > .product-package > .text-container > ul > li {
         color: var(--dark-color);
         font-family: var(--text-font);
         font-size: 18px;
@@ -588,6 +602,7 @@
         font-weight: 300;
         line-height: 13px;
         letter-spacing: -0.9px;
+        height: 13px;
     }
 
     .our-work > .work-showcase-container > .work-showcase-item > .preview-client,
@@ -598,7 +613,6 @@
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        transition: all 0.15s linear;
     }
 
     .our-work > .work-showcase-container > .work-showcase-item > .preview-client > a,
@@ -620,16 +634,9 @@
         background-image: url(/pictures/lalizu-client-preview.svg);
     }
 
-    .our-work > .work-showcase-container > #andyluzia-client > .preview-client,
-    .selected-projects-showcase > .work-showcase-container > #andyluzia-client > .preview-client {
-        background-image: url(/pictures/andyluzia-client-preview.svg);
-    }
-
-    .our-work > .work-showcase-container > .work-showcase-item > .preview-client:hover,
-    .selected-projects-showcase > .work-showcase-container > .work-showcase-item > .preview-client:hover,
-    .all-projects-showcase > .work-showcase-container > .work-showcase-item > .preview-client:hover {
-        cursor: pointer;
-        filter: brightness(0.8);
+    .our-work > .work-showcase-container > #nailden-client > .preview-client,
+    .selected-projects-showcase > .work-showcase-container > #nailden-client > .preview-client {
+        background-image: url(/pictures/nailden-client-preview.svg);
     }
 
     .separator {        
@@ -662,6 +669,7 @@
         justify-content: center;
         align-items: center;
         gap: 40px;
+        flex-wrap: wrap;
     }
 
     .services-showcase > .services-showcase-container > .product-package {
@@ -672,6 +680,14 @@
         flex: 1 0 0;
         background-color: var(--main-color);
         overflow: hidden;
+        cursor: pointer;
+        min-width: 480px;
+        max-width: 480px;
+        transition: all 0.15s linear;
+    }
+
+    .services-showcase > .services-showcase-container > .product-package:hover {
+        scale: 1.1;
     }
 
     .services-showcase > h1 {
@@ -704,11 +720,6 @@
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        transition: all 0.15s linear;
-    }
-
-    .services-showcase > .services-showcase-container > .product-package > .illustration-img:hover {
-        scale: 1.1;
     }
 
     .services-showcase > .services-showcase-container > .product-package > .illustration-img > a {
@@ -717,12 +728,20 @@
         display: block;
     }
 
-    .services-showcase > .services-showcase-container > .product-package > #digitalization-package {
-        background-image: url('/pictures/digitalization-illustration.webp');
+    .services-showcase > .services-showcase-container > .product-package > #website {
+        background-image: url('/pictures/webstites-illustration.webp');
     }
 
-    .services-showcase > .services-showcase-container > .product-package > #automatization-package {
-        background-image: url('/pictures/automatization-illustration.webp');
+    .services-showcase > .services-showcase-container > .product-package > #socials {
+        background-image: url('/pictures/socials-illustration.webp');
+    }
+
+    .services-showcase > .services-showcase-container > .product-package > #graphic {
+        background-image: url('/pictures/graphic-illustration.webp');
+    }
+
+    .services-showcase > .services-showcase-container > .product-package > #photography {
+        background-image: url('/pictures/content-illustration.webp');
     }
 
     .reviews-showcase {
@@ -873,7 +892,7 @@
         text-align: justify;
         color: var(--main-color);
         font-family: var(--text-font);
-        font-size: 22px;
+        font-size: 18px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -936,111 +955,16 @@
     .contact > .contact-container > .contact-btn-container > .contact-btn > p {
         color: var(--main-color);
         font-family: var(--text-font);
-        font-size: 32px;
+        font-size: 24px;
         font-style: normal;
         font-weight: 600;
-        line-height: 22px;
+        line-height: 17px;
         letter-spacing: -1.6px;
         margin: 0;
     }
 
     .contact > .contact-container > .contact-btn-container > .contact-btn:hover {
         background-color: var(--highlight-color);
-    }
-
-    /* ---------------------------- Landing Page Popup ---------------------------- */
-
-    .popup-overlay {
-        position: fixed;
-        top: 0;
-        width: 100vw;
-        height: 100vh;
-        background: rgba(3, 4, 3, 0.40);
-        z-index: 100;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .popup-overlay > .popup-container {
-        position: relative;
-        display: flex;
-        width: 800px;
-        height: 500px;
-        padding: 50px;
-        box-sizing: border-box;
-        justify-content: center;
-        align-items: center;
-        gap: 50px;
-        flex-shrink: 0;
-        background-color: var(--main-color);
-    }
-
-    .popup-overlay > .popup-container > .popup-close-btn {
-        position: absolute;
-        width: 20px;
-        height: 20px;
-        top: 0;
-        right: 0;
-        background-color: var(--dark-color);
-        margin: 15px;
-        cursor: pointer;
-        transition: all 0.15s linear;
-    }
-
-    .popup-overlay > .popup-container > .popup-close-btn:hover {
-        background-color: var(--highlight-color);
-    }
-
-    .popup-overlay > .popup-container > img {
-        width: 400px;
-        height: 400px;
-    }
-
-    .popup-overlay > .popup-container > .popup-text {
-        display: flex;
-        width: 250px;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 60px;
-        flex-shrink: 0;
-        align-self: stretch;
-    }
-
-    .popup-overlay > .popup-container > .popup-text > p {
-        color: var(--dark-color);
-        text-align: center;
-        font-family: var(--text-font);
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 300;
-    }
-
-    .popup-overlay > .popup-container > .popup-text > .contact-us-btn {
-        text-decoration: none;
-        display: flex;
-        padding: 10px;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-        background-color: var(--dark-color);
-        color: var(--main-color);
-        font-family: var(--text-font);
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 17px;
-        letter-spacing: -1.2px;
-        transition: all 0.15s linear;
-    }
-
-    .popup-overlay > .popup-container > .popup-text > .contact-us-btn:hover {
-        background-color: var(--highlight-color);
-    }
-
-    .hidden-popup {
-        display: none;
     }
 
     /* ---------------------------- About Page ---------------------------- */
@@ -1360,6 +1284,10 @@
         align-items: center;
         gap: 40px;
     }
+
+    .all-projects-showcase > .work-showcase-container > #nailden-client > .preview-client {
+        background-image: url(/pictures/nailden-client-preview.svg);
+    }
     
     .all-projects-showcase > .work-showcase-container > #caselink-client > .preview-client {
         background-image: url(/pictures/caselink-client-preview.svg);
@@ -1377,11 +1305,24 @@
         background-image: url(/pictures/vasevolby-client-preview.svg);
     }
 
+    .all-projects-showcase > .work-showcase-container > #lotroastery-client > .preview-client {
+        background-image: url(/pictures/lotroastery-client-preview.svg);
+    }
+
+    .all-projects-showcase > .work-showcase-container > #vexion-client > .preview-client {
+        background-image: url(/pictures/vexion-client-preview.webp);
+    }
+
+    .all-projects-showcase > .work-showcase-container > #expat-client > .preview-client {
+        background-image: url(/pictures/expat-client-preview.svg);
+    }
+
     /* ---------------------------- Services Page ---------------------------- */
 
     .services-hero {
-        background-color: var(--main-color);
+        background-color: var(--dark-color);
         background-image: url('/pictures/services-hero.webp');
+        padding: 200px 0 300px 0;
     }
 
     .services-hero > .hero-container,
@@ -1401,148 +1342,109 @@
         justify-content: center;
         align-items: flex-start;
         gap: 20px;
-        background-color: var(--dark-color);
         width: max-content;
         align-self: center;
     }
 
-    .digitalization-package,
-    .automatization-package {
-        background-color: var(--dark-color);
+    .services-page {
         display: flex;
-        width: 100vw;
-        padding: 100px 0;
+        padding: 100px 0; 
+        box-sizing: border-box;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 50px;
+        flex-shrink: 0;
+        background-color: var(--main-color);
+        background-image: url('/pictures/services-page.webp');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
-    .digitalization-package > h1,
-    .automatization-package > h1 {
-        width: 800px;
-        color: var(--main-color);
-        font-family: var(--text-font);
-        text-align: right;
-        font-size: 64px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 45px;
-        letter-spacing: -3.2px;
-        margin: 0;
-    }
-
-    .digitalization-package > .package-content,
-    .automatization-package > .package-content {
+    .services-page > .services-showcase-container {
         display: flex;
         width: 700px;
         flex-direction: column;
         align-items: flex-start;
-        gap: 30px;
+        gap: 40px;
     }
 
-    .digitalization-package > .package-content {
-        padding-top: 50px;
-    }
-
-    .digitalization-package > .package-content > h2,
-    .automatization-package > .package-content > h2 {
-        color: var(--main-color);
-        font-family: var(--text-font);
-        font-size: 38px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        margin: 0;
-    }
-
-    .digitalization-package > .package-content > .package-content-section,
-    .automatization-package > .package-content > .package-content-section {
+    .services-page > .services-showcase-container > .product-package {
         display: flex;
-        padding: 20px 0px;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 20px;
-        align-self: stretch;
+        height: 200px;
+        box-sizing: border-box;
+        justify-content: space-between;
+        background-color: var(--main-color);
+        overflow: hidden;
+        cursor: pointer;
+        width: 100%;
+        transition: all 0.15s linear;
     }
 
-    .digitalization-package > .package-content > .package-content-section > .title,
-    .automatization-package > .package-content > .package-content-section > .title {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 10px;
-        align-self: stretch;  
+    .services-page > .services-showcase-container > .product-package:hover {
+        scale: 1.1;
     }
 
-    .digitalization-package > .package-content > .package-content-section > .title > h4,
-    .automatization-package > .package-content > .package-content-section > .title > h4 {
-        align-self: stretch;
+    .services-page > h1 {
         color: var(--main-color);
         font-family: var(--text-font);
-        font-size: 28px;
+        font-size: 64px;
         font-style: normal;
-        font-weight: 700;
+        font-weight: 500;
         line-height: normal;
+        letter-spacing: -3.2px;
         margin: 0;
+        width: 1000px;
     }
 
-    .digitalization-package > .package-content > .package-content-section > .title > p,
-    .automatization-package > .package-content > .package-content-section > .title > p {
-        align-self: stretch;
-        color: var(--main-color);
-        text-align: justify;
-        font-family: var(--text-font);
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        margin: 0;
-    }
-
-    .digitalization-package > .package-content > .package-content-section > .items,
-    .automatization-package > .package-content > .package-content-section > .items {
-        display: flex;
-        padding: 0px 20px;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 20px;
-        align-self: stretch;
-    }
-
-    .digitalization-package > .package-content > .package-content-section > .items > ul,
-    .automatization-package > .package-content > .package-content-section > .items > ul {
-        padding: 0;
-        margin: 0;
-        list-style: none;
-    }
-
-    .digitalization-package > .package-content > .package-content-section > .items > ul > li,
-    .automatization-package > .package-content > .package-content-section > .items > ul > li {
-        flex: 1 0 0;
+    .services-page > p {
         color: var(--main-color);
         font-family: var(--text-font);
-        font-size: 28px;
+        font-size: 22px;
         font-style: normal;
-        font-weight: 400;
+        font-weight: 300;
         line-height: normal;
-    } 
-
-    .digitalization-package > .package-content > .package-content-section > .items > ul > .tab,
-    .automatization-package > .package-content > .package-content-section > .items > ul > .tab {
-        padding-left: 50px;
+        letter-spacing: -1.1px;
+        margin: 0;
+        width: 1000px;
     }
 
-    .digitalization-package > .package-content > .package-content-section > .items > ul > .double-tab,
-    .automatization-package > .package-content > .package-content-section > .items > ul > .double-tab {
-        padding-left: 100px;
+    .services-page > .services-showcase-container > .product-package > .illustration-img {
+        width: 200px;
+        height: 200px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .services-page > .services-showcase-container > .product-package > .illustration-img > a {
+        height: 100%;
+        width: 100%;
+        display: block;
+    }
+
+    .services-page > .services-showcase-container > .product-package > #website {
+        background-image: url('/pictures/webstites-illustration.webp');
+    }
+
+    .services-page > .services-showcase-container > .product-package > #socials {
+        background-image: url('/pictures/socials-illustration.webp');
+    }
+
+    .services-page > .services-showcase-container > .product-package > #graphic {
+        background-image: url('/pictures/graphic-illustration.webp');
+    }
+
+    .services-page > .services-showcase-container > .product-package > #photography {
+        background-image: url('/pictures/content-illustration.webp');
     }
 
     /* ---------------------------- Contact Page ---------------------------- */
 
     .contact-hero {
-        background-color: var(--main-color);
+        background-color: var(--dark-color);
         background-image: url('/pictures/contact-hero.webp');
+        padding: 200px 0 300px 0;
     }
 
     .contact-form {
@@ -1954,7 +1856,7 @@
         line-height: 12px;
         letter-spacing: -0.5px;
         transition: all 0.15s linear;
-        padding: 5px 0;
+        padding: 6px 0;
     }    
 
     footer > .footer-menu > .footer-row > ul > li > a:hover {
@@ -1998,6 +1900,10 @@
 
     footer > .footer-bottom-links > .socials-footer > a:hover > svg > path {
         fill: var(--highlight-color);
+    }
+
+    .footer-nav-logo {
+        margin-left: -6px;
     }
 }
 
@@ -2391,6 +2297,7 @@
         align-self: stretch;
     }
 
+    .author-container > h2,
     .author-container > h3 {
         color: var(--highlight-color);
         text-align: center;
@@ -2461,7 +2368,8 @@
     .our-work > .work-showcase-container > .work-showcase-item > .text-container,
     .services-showcase > .services-showcase-container > .product-package > .text-container,
     .selected-projects-showcase > .work-showcase-container > .work-showcase-item > .text-container,
-    .all-projects-showcase > .work-showcase-container > .work-showcase-item > .text-container {
+    .all-projects-showcase > .work-showcase-container > .work-showcase-item > .text-container,
+    .services-page > .services-showcase-container > .product-package > .text-container {
         display: flex;
         padding: 20px;
         box-sizing: border-box;
@@ -2475,7 +2383,8 @@
     .our-work > .work-showcase-container > .work-showcase-item > .text-container > h3,
     .services-showcase > .services-showcase-container > .product-package > .text-container > h3,
     .selected-projects-showcase > .work-showcase-container > .work-showcase-item > .text-container > h3,
-    .all-projects-showcase > .work-showcase-container > .work-showcase-item > .text-container > h3 {
+    .all-projects-showcase > .work-showcase-container > .work-showcase-item > .text-container > h3,
+    .services-page > .services-showcase-container > .product-package > .text-container > h3 {
         display: flex;
         padding: 6px 2px 10px 1px;
         justify-content: center;
@@ -2494,7 +2403,8 @@
     .our-work > .work-showcase-container > .work-showcase-item > .text-container > p,
     .services-showcase > .services-showcase-container > .product-package > .text-container > p,
     .selected-projects-showcase > .work-showcase-container > .work-showcase-item > .text-container > p,
-    .all-projects-showcase > .work-showcase-container > .work-showcase-item > .text-container > p {
+    .all-projects-showcase > .work-showcase-container > .work-showcase-item > .text-container > p,
+    .services-page > .services-showcase-container > .product-package > .text-container > p {
         color: var(--highlight-color);
         font-family: var(--special-font);
         font-size: 14px;
@@ -2508,7 +2418,8 @@
     .our-work > .work-showcase-container > .work-showcase-item > .text-container > ul,
     .services-showcase > .services-showcase-container > .product-package > .text-container > ul,
     .selected-projects-showcase > .work-showcase-container > .work-showcase-item > .text-container > ul,
-    .all-projects-showcase > .work-showcase-container > .work-showcase-item > .text-container > ul {
+    .all-projects-showcase > .work-showcase-container > .work-showcase-item > .text-container > ul,
+    .services-page > .services-showcase-container > .product-package > .text-container > ul {
         list-style: none;
         display: flex;
         flex-direction: column;
@@ -2523,13 +2434,15 @@
     .our-work > .work-showcase-container > .work-showcase-item > .text-container > ul > li,
     .services-showcase > .services-showcase-container > .product-package > .text-container > ul > li,
     .selected-projects-showcase > .work-showcase-container > .work-showcase-item > .text-container > ul > li,
-    .all-projects-showcase > .work-showcase-container > .work-showcase-item > .text-container > ul > li {
+    .all-projects-showcase > .work-showcase-container > .work-showcase-item > .text-container > ul > li,
+    .services-page > .services-showcase-container > .product-package > .text-container > ul > li {
         color: var(--dark-color);
         font-family: var(--text-font);
         font-size: 18px;
         font-style: normal;
         font-weight: 300;
         line-height: 13px;
+        height: 13px;
         letter-spacing: -0.9px;
     }
 
@@ -2562,9 +2475,9 @@
         background-image: url(/pictures/lalizu-client-preview.svg);
     }
 
-    .our-work > .work-showcase-container > #andyluzia-client > .preview-client,
-    .selected-projects-showcase > .work-showcase-container > #andyluzia-client > .preview-client {
-        background-image: url(/pictures/andyluzia-client-preview.svg);
+    .our-work > .work-showcase-container > #nailden-client > .preview-client,
+    .selected-projects-showcase > .work-showcase-container > #nailden-client > .preview-client {
+        background-image: url(/pictures/nailden-client-preview.svg);
     }
 
     .separator {        
@@ -2581,7 +2494,6 @@
         justify-content: center;
         align-items: center;
         flex-shrink: 0;
-        gap: 20px;
         background-color: var(--black-color);
         background-image: url('/pictures/landing-page-services.webp');
         background-position: center;
@@ -2596,6 +2508,7 @@
         justify-content: center;
         align-items: center;
         gap: 20px;
+        padding-bottom: 20px;
     }
 
     .services-showcase > .services-showcase-container > .product-package {
@@ -2852,105 +2765,6 @@
         line-height: 22px;
         letter-spacing: -1.6px;
         margin: 0;
-    }
-
-    /* ---------------------------- Mobile Landing Page Popup ---------------------------- */
-
-    .popup-overlay {
-        position: fixed;
-        top: 0;
-        width: 100vw;
-        height: 100vh;
-        background: rgba(3, 4, 3, 0.40);
-        z-index: 100;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .popup-overlay > .popup-container {
-        position: relative;
-        display: flex;
-        width: calc(100vw - 50px);
-        height: calc(100vh - 200px);
-        min-height: 500px;
-        padding: 25px;
-        box-sizing: border-box;
-        flex-direction: column;
-        justify-content: flex-end;
-        align-items: center;
-        gap: 20px;
-        flex-shrink: 0;
-        background-color: var(--main-color);
-    }
-
-    .popup-overlay > .popup-container > .popup-close-btn {
-        position: absolute;
-        width: 20px;
-        height: 20px;
-        top: 0;
-        right: 0;
-        background-color: var(--dark-color);
-        margin: 15px;
-        cursor: pointer;
-        transition: all 0.15s linear;
-    }
-
-    .popup-overlay > .popup-container > .popup-close-btn:hover {
-        background-color: var(--highlight-color);
-    }
-
-    .popup-overlay > .popup-container > img {
-        width: calc(100vw - 100px);
-        min-width: 200px;
-        height: calc(100vw - 100px);
-        min-height: 200px;
-    }
-
-    .popup-overlay > .popup-container > .popup-text {
-        display: flex;
-        width: calc(100vw - 100px);
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-        flex-shrink: 0;
-        align-self: stretch;
-    }
-
-    .popup-overlay > .popup-container > .popup-text > p {
-        color: var(--dark-color);
-        text-align: center;
-        font-family: var(--text-font);
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 300;
-        margin: 0;
-    }
-
-    .popup-overlay > .popup-container > .popup-text > .contact-us-btn {
-        text-decoration: none;
-        display: flex;
-        padding: 10px;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-        background-color: var(--dark-color);
-        color: var(--main-color);
-        font-family: var(--text-font);
-        font-size: 28px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 20px;
-        letter-spacing: -1.4px;
-    }
-
-    .popup-overlay > .popup-container > .popup-text > .contact-us-btn:hover {
-        background-color: var(--highlight-color);
-    }
-
-    .hidden-popup {
-        display: none;
     }
 
     /* ---------------------------- Mobile About Page ---------------------------- */
@@ -3266,6 +3080,10 @@
         margin: 0;
     }
     
+    .all-projects-showcase > .work-showcase-container > #nailden-client > .preview-client {
+        background-image: url(/pictures/nailden-client-preview.svg);
+    }
+
     .all-projects-showcase > .work-showcase-container > #caselink-client > .preview-client {
         background-image: url(/pictures/caselink-client-preview.svg);
     }
@@ -3282,11 +3100,24 @@
         background-image: url(/pictures/vasevolby-client-preview.svg);
     }
 
+    .all-projects-showcase > .work-showcase-container > #lotroastery-client > .preview-client {
+        background-image: url(/pictures/lotroastery-client-preview.svg);
+    }
+
+    .all-projects-showcase > .work-showcase-container > #vexion-client > .preview-client {
+        background-image: url(/pictures/vexion-client-preview.webp);
+    }
+
+    .all-projects-showcase > .work-showcase-container > #expat-client > .preview-client {
+        background-image: url(/pictures/expat-client-preview.svg);
+    }
+
     /* ---------------------------- Mobile Services Page ---------------------------- */
 
     .services-hero {
-        background-color: var(--main-color);
+        background-color: var(--dark-color);
         background-image: url('/pictures/services-hero.webp');
+        padding-bottom: 60px;
     }
 
     .services-hero > .hero-container,
@@ -3305,146 +3136,80 @@
         justify-content: center;
         align-items: flex-start;
         gap: 20px;
-        background-color: var(--dark-color);
         width: max-content;
         align-self: center;
     }
 
-    .digitalization-package,
-    .automatization-package {
-        background-color: var(--dark-color);
+    .services-page {
         display: flex;
+        padding: 100px 0;
         width: 100vw;
-        padding: 50px 0;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 50px;
+        flex-shrink: 0;
+        background-color: var(--black-color);
+        background-image: url('/pictures/landing-page-services.webp');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
-    .digitalization-package > h1,
-    .automatization-package > h1 {
-        min-width: max-content;
+    .services-page > .services-showcase-container {
+        display: flex;
         width: calc(100vw - 90px);
-        color: var(--main-color);
-        font-family: var(--text-font);
-        text-align: right;
-        font-size: 32px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 22px;
-        letter-spacing: -1.6px;
-        margin: 0;
-    }
-
-    .digitalization-package > .package-content,
-    .automatization-package > .package-content {
-        display: flex;
-        width: calc(100vw - 70px);
         flex-direction: column;
-        align-items: flex-start;
+        justify-content: center;
+        align-items: center;
         gap: 20px;
+        padding-bottom: 20px;
     }
 
-    .digitalization-package > .package-content > h2,
-    .automatization-package > .package-content > h2 {
-        color: var(--main-color);
-        font-family: var(--text-font);
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        align-self: stretch;
-        margin: 0;
-    }
-
-    .digitalization-package > .package-content > .package-content-section,
-    .automatization-package > .package-content > .package-content-section {
+    .services-page > .services-showcase-container > .product-package {
         display: flex;
-        padding: 10px 0px;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 20px;
+        height: 200px;
         align-self: stretch;
-    }
-
-    .digitalization-package > .package-content > .package-content-section > .title,
-    .automatization-package > .package-content > .package-content-section > .title {
-        display: flex;
         flex-direction: column;
         align-items: flex-start;
         gap: 10px;
-        align-self: stretch;  
+        background-color: var(--main-color);
+        overflow: hidden;
     }
 
-    .digitalization-package > .package-content > .package-content-section > .title > h4,
-    .automatization-package > .package-content > .package-content-section > .title > h4 {
-        align-self: stretch;
+    .services-page > h1 {
         color: var(--main-color);
         font-family: var(--text-font);
-        font-size: 16px;
+        font-size: 32px;
         font-style: normal;
-        font-weight: 700;
+        font-weight: 500;
         line-height: normal;
+        letter-spacing: -1.6px;
         margin: 0;
+        width: calc(100vw - 90px);
     }
 
-    .digitalization-package > .package-content > .package-content-section > .title > p,
-    .automatization-package > .package-content > .package-content-section > .title > p {
-        align-self: stretch;
-        color: var(--main-color);
-        text-align: justify;
-        font-family: var(--text-font);
-        font-size: 12px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        margin: 0;
-    }
-
-    .digitalization-package > .package-content > .package-content-section > .items,
-    .automatization-package > .package-content > .package-content-section > .items {
-        display: flex;
-        padding: 0px 20px;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 20px;
-        align-self: stretch;
-    }
-
-    .digitalization-package > .package-content > .package-content-section > .items > ul,
-    .automatization-package > .package-content > .package-content-section > .items > ul {
-        padding: 0;
-        margin: 0;
-        list-style: none;
-    }
-
-    .digitalization-package > .package-content > .package-content-section > .items > ul > li,
-    .automatization-package > .package-content > .package-content-section > .items > ul > li {
-        align-self: stretch;
+    .services-page > p {
         color: var(--main-color);
         font-family: var(--text-font);
         font-size: 14px;
         font-style: normal;
-        font-weight: 400;
+        font-weight: 300;
         line-height: normal;
-    } 
-
-    .digitalization-package > .package-content > .package-content-section > .items > ul > .tab,
-    .automatization-package > .package-content > .package-content-section > .items > ul > .tab {
-        padding-left: 50px;
+        letter-spacing: -0.7px;
+        margin: 0;
+        width: calc(100vw - 90px);
     }
 
-    .digitalization-package > .package-content > .package-content-section > .items > ul > .double-tab,
-    .automatization-package > .package-content > .package-content-section > .items > ul > .double-tab {
-        padding-left: 100px;
+    .services-page > .services-showcase-container > .product-package > .illustration-img {
+        display: none;
     }
 
     /* ---------------------------- Mobile Contact Page ---------------------------- */
 
     .contact-hero {
-        background-color: var(--main-color);
+        background-color: var(--dark-color);
         background-image: url('/pictures/contact-hero.webp');
+        padding-bottom: 60px;
     }
 
     .contact-form {
@@ -3862,7 +3627,7 @@
         font-weight: 400;
         line-height: 12px;
         letter-spacing: -0.6px;
-        padding: 5px 0;
+        padding: 6px 0;
     }    
 
     footer > .footer-bottom-links {
