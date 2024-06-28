@@ -73,6 +73,13 @@ const langSk = {
   '</div>' +
   '</div>' +
   '<div class="review-item">' +
+  '<p>“Nedávno som začal nový hudobný projekt, a potreboval som k nemu promo. Kontaktoval som chalanov z Blackwater Digital, a tí mi rýchlo, efektívne a hlavne dôsledne pripravili, a doteraz stále menežujú môj Instagram, pripravujú materiál na sociálne siete a aj grafiku na skladby. Určite s nimi zostávam, a dúfam že sa naša spolupráca časom porastie.”</p>' +
+  '<div class="review-item-credits">' +
+  '<p class="name">Martin Žila</p>' +
+  '<p class="position">Nailden</p>' +
+  '</div>' +
+  '</div>' +
+  '<div class="review-item">' +
   '<p>“Chlapci s Blackwater mi rýchlo a efektívne spravili stránku, presne tak ako som si to želal. Komunikácia a spolupráca s nimi bola vždy super a hlavne rýchlo vybavili hocijakú požiadavku akú som mal. Služby aj ohľadom sociálnych sietí aj ohľadom webu silno odporúčam.”</p>' +
   '<div class="review-item-credits">' +
   '<p class="name">Andy Kraus</p>' +

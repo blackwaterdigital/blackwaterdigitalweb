@@ -74,6 +74,13 @@ const langEn = {
   '</div>' +
   '</div>' +
   '<div class="review-item">' +
+  '<p>“I recently started a band and needed promotion. I contacted the guys from Blackwater Digital, and with speed, efficiency and most importantly, with high quality, they had begun managing my Instagram account, prepared material for social media and graphics for my releases. I am definitely staying with them, and I hope that our cooperation will grow.”</p>' +
+  '<div class="review-item-credits">' +
+  '<p class="name">Martin Žila</p>' +
+  '<p class="position">Nailden</p>' +
+  '</div>' +
+  '</div>' +
+  '<div class="review-item">' +
   '<p>“The guys at Blackwater built my site quickly and efficiently, just the way I wanted it. Communication and cooperation with them was always great, and above all, they quickly handled any request I had. I strongly recommend the services regarding both social networks and the web.”</p>' +
   '<div class="review-item-credits">' +
   '<p class="name">Andy Kraus</p>' +
