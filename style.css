@@ -71,7 +71,7 @@
         box-sizing: border-box;
         position: fixed;
         top: 0;
-        transition: all 0.15s linear;
+        transition: all 0.2s ease-in-out;
         z-index: 10;
     }
 
@@ -116,7 +116,7 @@
         letter-spacing: -1.2px;
         padding: 10px;
         box-sizing: border-box;
-        transition: all 0.15s linear;
+        transition: all 0.2s ease-in-out;
     }
 
     nav > ul > li > a:hover {
@@ -127,7 +127,7 @@
         font-weight: 600;
         color: var(--dark-color);
         background-color: var(--main-color);
-        transition: all 0.15s linear;
+        transition: all 0.2s ease-in-out;
     }
 
     .nav-action-btn > a:hover {
@@ -161,7 +161,7 @@
         width: 32px;
         padding: 10px 25px;
         cursor: pointer;
-        transition: all 0.15s linear;
+        transition: all 0.2s ease-in-out;
     }
 
     .dropdown > li::after {
@@ -174,7 +174,7 @@
         padding: 10px 25px;
         cursor: pointer;
         opacity: 0;
-        transition: all 0.15s linear;
+        transition: all 0.2s ease-in-out;
     }
 
     .dropdown > li:hover::after {
@@ -207,7 +207,7 @@
         justify-content: space-evenly;
         opacity: 1;
         pointer-events: auto;
-        transition: all 0.15s linear;
+        transition: all 0.2s ease-in-out;
     }
     
     .dropdown-content > li {
@@ -216,7 +216,7 @@
         width: 60px;
         opacity: 0.6;
         cursor: pointer;
-        transition: all 0.15s linear;
+        transition: all 0.2s ease-in-out;
     }
 
     .dropdown-content > li:hover {
@@ -238,7 +238,7 @@
 
     .light > nav > ul > li > a {
         color: var(--dark-color);
-        transition: all 0.15s linear;
+        transition: all 0.2s ease-in-out;
     }
 
     .light > nav > ul > li > a:hover {
@@ -248,7 +248,7 @@
     .light > nav > ul > .nav-action-btn > a {
         color: var(--main-color);
         background-color: var(--dark-color);
-        transition: all 0.15s linear;
+        transition: all 0.2s ease-in-out;
     }
 
     .light > nav > ul > .nav-action-btn > a:hover {
@@ -371,7 +371,7 @@
         gap: 10px;
         background-color: var(--main-color);
         text-decoration: none;
-        transition: all 0.15s linear;
+        transition: all 0.2s ease-in-out;
     }
 
     .hero-text > .more-about-btn > p {
@@ -515,13 +515,13 @@
         flex-shrink: 0;
         background-color: var(--main-color);
         cursor: pointer;
-        transition: all 0.15s linear;
+        transition: all 0.2s ease-in-out;
     }
 
     .our-work > .work-showcase-container > .work-showcase-item:hover,
     .selected-projects-showcase > .work-showcase-container > .work-showcase-item:hover,
     .all-projects-showcase > .work-showcase-container > .work-showcase-item:hover {
-        transform: scale(1.1);
+        transform: scale(1.025);
     }
 
     .our-work > .work-showcase-container > .work-showcase-item > .text-container,
@@ -684,11 +684,11 @@
         cursor: pointer;
         min-width: 480px;
         max-width: 480px;
-        transition: all 0.15s linear;
+        transition: all 0.2s ease-in-out;
     }
 
     .services-showcase > .services-showcase-container > .product-package:hover {
-        scale: 1.1;
+        transform: scale(1.025);
     }
 
     .services-showcase > h1 {
@@ -934,7 +934,7 @@
         justify-content: center;
         align-items: center;
         background-color: var(--dark-color);
-        transition: all 0.15s linear;
+        transition: all 0.2s ease-in-out;
     }
 
     .contact > .contact-container > .contact-btn-container > .contact-icons > .contact-icon:hover {
@@ -950,7 +950,7 @@
         background-color: var(--dark-color);
         align-self: flex-end;
         text-decoration: none;
-        transition: all 0.15s linear;
+        transition: all 0.2s ease-in-out;
     }
 
     .contact > .contact-container > .contact-btn-container > .contact-btn > p {
@@ -1216,7 +1216,7 @@
     }
 
     .team-showcase > .members-showcase-container > .member-card > .socials > a:hover > svg > path {
-        transition: all 0.15s linear;
+        transition: all 0.2s ease-in-out;
     }
     
     .team-showcase > .members-showcase-container > .member-card > .socials > a:hover > svg > path {
@@ -1379,7 +1379,7 @@
         overflow: hidden;
         cursor: pointer;
         width: 100%;
-        transition: all 0.15s linear;
+        transition: all 0.2s ease-in-out;
     }
 
     .services-page > .services-showcase-container > .product-package:hover {
@@ -1561,7 +1561,7 @@
     .contact-form > .send-message-container > form > #submit-btn:focus,
     .contact-form > .send-message-container > form > #submit-btn:focus-visible {
         background-color: var(--tint-color);
-        transition: all 0.15s linear;
+        transition: all 0.2s ease-in-out;
     }
 
     .contact-form > .send-message-container > .text-content {
@@ -1797,7 +1797,7 @@
         font-weight: 600;
         line-height: 17px;
         letter-spacing: -1.2px;
-        transition: all 0.15s linear;
+        transition: all 0.2s ease-in-out;
     }
 
     footer > .footer-top-row > .contact-us-btn:hover {
@@ -1856,7 +1856,7 @@
         font-weight: 400;
         line-height: 12px;
         letter-spacing: -0.5px;
-        transition: all 0.15s linear;
+        transition: all 0.2s ease-in-out;
         padding: 6px 0;
     }    
 
@@ -1896,7 +1896,7 @@
 
     footer > .footer-bottom-links > .socials-footer > a > svg > path {
         fill: var(--main-color);
-        transition: all 0.15s linear;
+        transition: all 0.2s ease-in-out;
     }
 
     footer > .footer-bottom-links > .socials-footer > a:hover > svg > path {
@@ -3329,7 +3329,7 @@
     .contact-form > .send-message-container > form > #submit-btn:focus,
     .contact-form > .send-message-container > form > #submit-btn:focus-visible {
         background-color: var(--tint-color);
-        transition: all 0.15s linear;
+        transition: all 0.2s ease-in-out;
     }
 
     .contact-form > .send-message-container > .text-content {
