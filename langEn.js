@@ -405,7 +405,7 @@ const langEn = {
     <input type="text" name="email" id="email" placeholder="E-mail Address *">
     <textarea name="message" placeholder="Message *"></textarea>
     <input type="hidden" name="replyTo" value="@">
-    <input type="hidden" name="redirectTo" value="https://blackwaterdigital.sk">
+    <input type="hidden" name="redirectTo" value="https://digital.blackwater.sk">
     <input type="submit" value="SEND" id="submit-btn" />`,
 
   "#contact-form-text": `<a href="https://forms.gle/v9L3AuX1mK477dPf8" class="questionnaire-btn" target="_blank">

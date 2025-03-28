@@ -269,7 +269,7 @@ const langSk = {
     <input type="text" name="email" id="email" placeholder="E-mail adresa *">
     <textarea name="message" placeholder="Správa *"></textarea>
     <input type="hidden" name="replyTo" value="@">
-    <input type="hidden" name="redirectTo" value="https://blackwaterdigital.sk">
+    <input type="hidden" name="redirectTo" value="https://digital.blackwater.sk">
     <input type="submit" value="POSLAŤ" id="submit-btn" />`,
 
   "#contact-form-text": `<a href="https://forms.gle/A8Sts5RVeGDBmxJK6" class="questionnaire-btn" target="_blank">
